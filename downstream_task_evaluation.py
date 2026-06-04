@@ -670,6 +670,8 @@ def load_weights(weight_path, model, my_device):
 def main(cfg):
     """Evaluate hand-crafted vs deep-learned features"""
 
+    print(f"CURRENT HYDRA WORKING DIR: {os.getcwd()}")
+
     logger = logging.getLogger(cfg.evaluation.evaluation_name)
     logger.setLevel(logging.INFO)
     now = datetime.now()
@@ -708,7 +710,7 @@ def main(cfg):
         my_device = "cuda:0"  # use the first GPU as master
     else:
         my_device = "cpu"
-    # Expected shape of downstream X and Y
+    # Expected shape of ssl_downstream X and Y
     # X: T x (Sample Rate*Epoch len) x 3
     # Y: T,
     print("X shape:", X.shape)

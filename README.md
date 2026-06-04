@@ -51,7 +51,7 @@ To run the models, the data directory will have to be structured in a similar fa
 as an example.
 ```shell
 - data:
-  |_ downstream
+  |_ ssl_downstream
     |_oppo
       |_ X.npy
       |_ Y.npy
