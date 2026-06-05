@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=MAKE_MOBD
+#SBATCH --cpus-per-task=8
+#SBATCH --mem-per-cpu=16000
+#SBATCH --time=6:00:00
+#SBATCH --mail-user=lmcheesman1@sheffield.ac.uk
+#SBATCH --mail-type=ALL
+#SBATCH --output=/users/acp25lmc/ssl-wearables/slurm-jobs/logs/%x_%j_%a.out
+#SBATCH --error=/users/acp25lmc/ssl-wearables/slurm-jobs/logs/%x_%j_%a.err
+
+export SLURM_EXPORT_ENV=ALL
+module load Anaconda3/2024.02-1
+source activate ssl_env
+cd /users/acp25lmc/ssl-wearables/data_parsing
+python make_mobd.py
