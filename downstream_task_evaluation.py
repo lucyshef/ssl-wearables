@@ -675,7 +675,7 @@ def main(cfg):
     logger = logging.getLogger(cfg.evaluation.evaluation_name)
     logger.setLevel(logging.INFO)
     now = datetime.now()
-    dt_string = now.strftime("%d-%m-%Y_%H:%M:%S")
+    dt_string = now.strftime("%d-%m-%Y_%H-%M-%S")
     log_dir = os.path.join(
         get_original_cwd(),
         cfg.evaluation.evaluation_name + "_" + dt_string + ".log",

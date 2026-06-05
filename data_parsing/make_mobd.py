@@ -4,6 +4,9 @@ import numpy as np
 import pandas as pd
 from tqdm.auto import tqdm
 from .utils import resize
+from pathlib import Path
+from functools import partial
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 DEVICE_HZ = 100  # Hz
 WINDOW_SEC = 10  # seconds
@@ -15,141 +18,155 @@ WINDOW_TOL = 0.01  # 1%
 TARGET_HZ = 30  # Hz
 TARGET_WINDOW_LEN = int(TARGET_HZ * WINDOW_SEC)
 
-# TODO: pathing
-DATAFILES = "/Users/catong/repos/video-imu/data/"
-DATAFILES = DATAFILES + "wisdm/wisdm-dataset/raw/watch/accel/*.txt"
-OUTDIR = "wisdm_30hz_w10/"
 
-# TODO: do I need a label? some files have this
-LABEL = 'label:Walmsley2020'
+# DATAFILES = "/Users/catong/repos/video-imu/data/"
+# DATAFILES = DATAFILES + "wisdm/wisdm-dataset/raw/watch/accel/*.txt"
+datafolder = os.path.join("/mnt/parscratch/users/acp25lmc/joined_data_parquet")
+sites = ["MS21"]
+OUTDIR = os.path.join("..", "data", "mobd_clean")
+num_workers = 4  # update this based on number of cores requested
 
-# TODO: I only need a binary outcome here
-label_dict = {}
-label_dict["walking"] = "A"
-label_dict["jogging"] = "B"
-label_dict["stairs"] = "C"
-label_dict["sitting"] = "D"
-label_dict["standing"] = "E"
-label_dict["typing"] = "F"
-label_dict["teeth"] = "G"
-label_dict["soup"] = "H"
-label_dict["chips"] = "I"
-label_dict["pasta"] = "J"
-label_dict["drinking"] = "K"
-label_dict["sandwich"] = "L"
-label_dict["kicking"] = "M"
-label_dict["catch"] = "O"
-label_dict["dribbling"] = "P"
-label_dict["writing"] = "Q"
-label_dict["clapping"] = "R"
-label_dict["folding"] = "S"
-code2name = {code: name for name, code in label_dict.items()}
 
-# TODO: this seems find but might as well check how it is used below
 def is_good_quality(w):
     """Window quality check"""
 
     if w.isna().any().any():
+        print("missing values - window rejected")
         return False
 
     if len(w) != WINDOW_LEN:
-        return False
-
-    # if len(w['annotation'].unique()) > 1:
-    # return False
-
-    w_start, w_end = w.index[0], w.index[-1]
-    w_duration = w_end - w_start
-    target_duration = pd.Timedelta(WINDOW_SEC, "s")
-    if np.abs(w_duration - target_duration) > WINDOW_TOL * target_duration:
+        print(f"window length {len(w)}, expected length {WINDOW_LEN} - window rejected")
         return False
 
     return True
 
 
-# annolabel = pd.read_csv(ANNOLABELFILE, index_col='annotation')
-# I need t for timestamp? TODO: need to think on this cause I am doing subject/timestamp splits not subject?
-X, Y, T, P, = (
-    [],
-    [],
-    [],
-    [],
-)
+def process_windows(datafile, window_step_len, window_len, target_window_len, outdir):
+    X_list = []
+    Y_list = []
+    T_list = []
+    P_list = []
+    columns = ["time_acc", "acc_x", "acc_y", "acc_z", "timestamp", "p_id", "overall_nep_status"]
 
-
-# def tmp(my_x):
-#     return float(my_x.strip(";"))
-
-# TODO update this for my datafile (or actually can maybe keep these the same but change below to match my input file)
-column_names = ["pid", "code", "time", "x", "y", "z"]
-
-for datafile in tqdm(glob.glob(DATAFILES)):
-    columns = ["pid", "class_code", "time", "x", "y", "z"]
-    one_person_data = pd.read_parquet( # TODO: change to read parquet
+    one_person_data_t = pd.read_parquet(
         datafile,
-        # sep=",",
-        header=None,
-        # converters={5: tmp},# not sure what TMP is doing here tbh
-        names=column_names,
-        # parse_dates=["time"],
-        index_col="time", # make this sample
+        columns=columns
     )
-    # TODO: do I need all this time handling? I think basically not cause this seems to be about sample alignment and grouping on activity
-    # TODO what I do need is to label my data with my targets
-    one_person_data.index = pd.to_datetime(one_person_data.index)
-    period = int(round((1 / DEVICE_HZ) * 1000_000_000))
-    # one_person_data.resample(f'{period}N', origin='start').nearest(limit=1)
-    code_to_df = dict(tuple(one_person_data.groupby("code")))
-    pid = int(one_person_data["pid"][0])
+    one_person_data_t.index = range(1, len(one_person_data_t) + 1)
+    pid = one_person_data_t["p_id"].max()
 
-    # todo: not really clear what's happening here
-    # okay this is about sample alignment which I have already done so I can ignore this :)
-    # but I do think I need a loop to go through the grouped code window by window and append to the array
-    # for code, data in code_to_df.items():
-    #     try:
-    #         data = data.resample(f"{period}N", origin="start").nearest(limit=1)
-    #     except ValueError:
-    #         if pid == 1629: # todo: what the hell is this janky hard coding
-    #             data = data.drop_duplicates()
-    #             data = data.resample(f"{period}N", origin="start").nearest(
-    #                 limit=1
-    #             )
-    #             pass
+    # return one_person_data_t, pid
+    for i in range(0, len(one_person_data_t), window_step_len):
+        w = one_person_data_t.iloc[i : i + window_len]
 
-        for i in range(0, len(data), WINDOW_STEP_LEN):
-            w = data.iloc[i : i + WINDOW_LEN]
+        if not is_good_quality(w):
+            continue
 
-            if not is_good_quality(w):
-                continue
-
-            x = w[["x", "y", "z"]].values
-            t = w.index[0].to_datetime64()
-
-            X.append(x)
-            Y.append(code2name[code]) # todo: update this cause I don't actually need a mapping
-            T.append(t)
-            P.append(pid)
-
-X = np.asarray(X)
-Y = np.asarray(Y)
-T = np.asarray(T)
-P = np.asarray(P)
-
-# fixing unit to g # todo: check this is right for my data I think it should be
-X = X / 9.81
-# downsample to 30 Hz # todo: double check their resize func but I think this is probably good
-X = resize(X, TARGET_WINDOW_LEN)
+        x = w[["acc_x", "acc_y", "acc_z"]].values
+        t = w["timestamp"].max()
+        y = w["overall_nep_status"].max()
 
 
-os.system(f"mkdir -p {OUTDIR}")
-np.save(os.path.join(OUTDIR, "X"), X)
-np.save(os.path.join(OUTDIR, "Y"), Y)
-np.save(os.path.join(OUTDIR, "time"), T)
-np.save(os.path.join(OUTDIR, "pid"), P)
+        X_list.append(x)
+        Y_list.append(y)
+        T_list.append(t)
+        P_list.append(pid)
 
-print(f"Saved in {OUTDIR}")
-print("X shape:", X.shape)
-print("Y distribution:", len(set(Y)))
-print(pd.Series(Y).value_counts())
-print("User distribution:", len(set(P)))
-print(pd.Series(P).value_counts())
+
+    # Convert to numpy arrays
+    X = np.array(X_list)
+    Y = np.array(Y_list)
+    T = np.array(T_list)
+    P = np.array(P_list)
+
+    print(X.shape, Y.shape, T.shape, P.shape)
+
+    # fixing unit to g
+    X = X / 9.81
+    # downsample to 30 Hz
+    X = resize(X, target_window_len)
+
+    print("dataset made!")
+
+    os.system(f"mkdir -p {outdir}")
+    np.save(os.path.join(outdir, "X"), X)
+    np.save(os.path.join(outdir, "Y"), Y)
+    np.save(os.path.join(outdir, "time"), T)
+    np.save(os.path.join(outdir, "pid"), P)
+
+    print(f"Saved in {outdir}")
+    print("X shape:", X.shape)
+    print("Y distribution:", len(set(Y)))
+    print(pd.Series(Y).value_counts())
+    print("User distribution:", len(set(P)))
+    print(pd.Series(P).value_counts())
+
+def locate_sensor_data(root_folder, suffix: str=".csv.gz", tag_search: bool=False, tags: list=None):
+    """
+    Function to recursively search a root directory and return a list of filepaths of sensor data
+    :param root_folder: path to root directory
+    :param suffix: suffix of filetypes to
+    :param tag_search: Flags whether there are additional search terms to include
+    :param tags: List of additional search terms to include
+    :return: list of filepaths of sensor data
+    """
+    # Create a Path object
+    root = Path(root_folder)
+    file_list = []
+    print("scanning for files")
+    for root, dirs, files in os.walk(root_folder):
+        # print(f"scanning: {root}, {dirs}")
+        for filename in files:
+            if tag_search:
+                if filename.endswith(suffix) and any(tag in filename for tag in tags):
+                    file_list.append(os.path.join(root, filename))
+            else:
+                if filename.endswith(suffix):
+                    file_list.append(os.path.join(root, filename))
+    print(f"{len(file_list)} files found")
+    return file_list
+
+def run_parallel_process(func, item_list, max_workers, **kwargs):
+    """
+    A function to run embarrassingly parallel processes on multiple items
+    :param func: The function to run in parallel
+    :param item_list: List of items to iterate over
+    :param max_workers: Number of cores to parallelise over
+    :param kwargs: Arguments required for func
+    :return: void
+    """
+    # partial "pre-fills" the function with the kwargs we have passed
+    executable_func = partial(func, **kwargs)
+    with ProcessPoolExecutor(max_workers=max_workers) as executor:
+        # create the list of jobs
+        futures = {executor.submit(executable_func, item): item for item in item_list}
+
+        # create the progress bar
+        for future in tqdm(as_completed(futures), total=len(futures), desc="processing..."):
+            try:
+                future.result()
+            except Exception as e:
+                print(f"Item {futures[future]} generated an exception: {e}")
+
+def process_all_files(datafolder, sites, window_step_len, window_len, target_window_len, outdir):
+    for site in sites:
+        site_folder = os.path.join(datafolder, site)
+        file_list = locate_sensor_data(site_folder, suffix=".parquet", tag_search=False)
+        print(f"\n--- Site: {site} | Total files: {len(file_list)} ---")
+
+        run_parallel_process(process_windows,
+                             file_list,
+                             num_workers,
+                             window_step_len=window_step_len,
+                             window_len=window_len,
+                             target_window_len=target_window_len,
+                             outdir=outdir
+                             )
+
+if __name__ == "__main__":
+    process_all_files(datafolder,
+                      sites,
+                      window_step_len=WINDOW_STEP_LEN,
+                      window_len=WINDOW_LEN,
+                      target_window_len=TARGET_WINDOW_LEN,
+                      outdir=OUTDIR)
