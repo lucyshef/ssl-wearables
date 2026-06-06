@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "make_mobd.py", line 196, in <module>
+    outdir=OUTDIR)
+  File "make_mobd.py", line 71, in process_windows
+    columns=columns
+  File "/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/pandas/io/parquet.py", line 310, in read_parquet
+    return impl.read(path, columns=columns, **kwargs)
+  File "/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/pandas/io/parquet.py", line 125, in read
+    path, columns=columns, **kwargs
+  File "/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/pyarrow/parquet/core.py", line 2987, in read_table
+    use_pandas_metadata=use_pandas_metadata)
+  File "/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/pyarrow/parquet/core.py", line 2616, in read
+    use_threads=use_threads
+  File "pyarrow/_dataset.pyx", line 537, in pyarrow._dataset.Dataset.to_table
+  File "pyarrow/_dataset.pyx", line 383, in pyarrow._dataset.Dataset.scanner
+  File "pyarrow/_dataset.pyx", line 3202, in pyarrow._dataset.Scanner.from_dataset
+  File "pyarrow/_dataset.pyx", line 3120, in pyarrow._dataset.Scanner._make_scan_options
+  File "pyarrow/_dataset.pyx", line 3071, in pyarrow._dataset._populate_builder
+  File "pyarrow/error.pxi", line 100, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: No match for FieldRef.Name(p_id) in time_gyr: double
+gyr_x: double
+gyr_y: double
+gyr_z: double
+time_acc: double
+acc_x: double
+acc_y: double
+acc_z: double
+tag: string
+date: string
+timestamp: string
+__fragment_index: int32
+__batch_index: int32
+__last_in_fragment: bool
+__filename: string
