@@ -1,0 +1,521 @@
+scanning for files
+47 files found
+
+--- Site: MS21 | Total files: 47 ---
+window length 840, expected length 1000 - window rejected
+(60929, 1000, 3) (60929,) (60929,) (60929,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60929, 300, 3)
+Y distribution: 1
+1    60929
+dtype: int64
+User distribution: 1
+21159    60929
+dtype: int64
+(59553, 1000, 3) (59553,) (59553,) (59553,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (59553, 300, 3)
+Y distribution: 1
+0    59553
+dtype: int64
+User distribution: 1
+21160    59553
+dtype: int64
+window length 760, expected length 1000 - window rejected
+(59700, 1000, 3) (59700,) (59700,) (59700,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (59700, 300, 3)
+Y distribution: 1
+0    59700
+dtype: int64
+User distribution: 1
+21168    59700
+dtype: int64
+window length 400, expected length 1000 - window rejected
+(61479, 1000, 3) (61479,) (61479,) (61479,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (61479, 300, 3)
+Y distribution: 1
+0    61479
+dtype: int64
+User distribution: 1
+21161    61479
+dtype: int64
+window length 120, expected length 1000 - window rejected
+(61276, 1000, 3) (61276,) (61276,) (61276,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (61276, 300, 3)
+Y distribution: 1
+0    61276
+dtype: int64
+User distribution: 1
+21155    61276
+dtype: int64
+window length 720, expected length 1000 - window rejected
+(61026, 1000, 3) (61026,) (61026,) (61026,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (61026, 300, 3)
+Y distribution: 1
+0    61026
+dtype: int64
+User distribution: 1
+21166    61026
+dtype: int64
+window length 480, expected length 1000 - window rejected
+(59793, 1000, 3) (59793,) (59793,) (59793,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (59793, 300, 3)
+Y distribution: 1
+0    59793
+dtype: int64
+User distribution: 1
+21163    59793
+dtype: int64
+window length 200, expected length 1000 - window rejected
+(59716, 1000, 3) (59716,) (59716,) (59716,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (59716, 300, 3)
+Y distribution: 1
+0    59716
+dtype: int64
+User distribution: 1
+21162    59716
+dtype: int64
+window length 680, expected length 1000 - window rejected
+(30327, 1000, 3) (30327,) (30327,) (30327,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (30327, 300, 3)
+Y distribution: 1
+0    30327
+dtype: int64
+User distribution: 1
+21157    30327
+dtype: int64
+window length 680, expected length 1000 - window rejected
+(49556, 1000, 3) (49556,) (49556,) (49556,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (49556, 300, 3)
+Y distribution: 1
+0    49556
+dtype: int64
+User distribution: 1
+21163    49556
+dtype: int64
+window length 440, expected length 1000 - window rejected
+(15825, 1000, 3) (15825,) (15825,) (15825,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (15825, 300, 3)
+Y distribution: 1
+0    15825
+dtype: int64
+User distribution: 1
+21160    15825
+dtype: int64
+window length 680, expected length 1000 - window rejected
+(60938, 1000, 3) (60938,) (60938,) (60938,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60938, 300, 3)
+Y distribution: 1
+0    60938
+dtype: int64
+User distribution: 1
+21164    60938
+dtype: int64
+window length 80, expected length 1000 - window rejected
+(59968, 1000, 3) (59968,) (59968,) (59968,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (59968, 300, 3)
+Y distribution: 1
+0    59968
+dtype: int64
+User distribution: 1
+21152    59968
+dtype: int64
+(60161, 1000, 3) (60161,) (60161,) (60161,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60161, 300, 3)
+Y distribution: 1
+0    60161
+dtype: int64
+User distribution: 1
+21161    60161
+dtype: int64
+window length 760, expected length 1000 - window rejected
+(59716, 1000, 3) (59716,) (59716,) (59716,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (59716, 300, 3)
+Y distribution: 1
+0    59716
+dtype: int64
+User distribution: 1
+21165    59716
+dtype: int64
+window length 640, expected length 1000 - window rejected
+(61463, 1000, 3) (61463,) (61463,) (61463,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (61463, 300, 3)
+Y distribution: 1
+0    61463
+dtype: int64
+User distribution: 1
+21165    61463
+dtype: int64
+window length 960, expected length 1000 - window rejected
+(60592, 1000, 3) (60592,) (60592,) (60592,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60592, 300, 3)
+Y distribution: 1
+1    60592
+dtype: int64
+User distribution: 1
+21159    60592
+dtype: int64
+window length 400, expected length 1000 - window rejected
+(60733, 1000, 3) (60733,) (60733,) (60733,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60733, 300, 3)
+Y distribution: 1
+0    60733
+dtype: int64
+User distribution: 1
+21164    60733
+dtype: int64
+window length 840, expected length 1000 - window rejected
+(60196, 1000, 3) (60196,) (60196,) (60196,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60196, 300, 3)
+Y distribution: 1
+1    60196
+dtype: int64
+User distribution: 1
+21159    60196
+dtype: int64
+window length 760, expected length 1000 - window rejected
+(61179, 1000, 3) (61179,) (61179,) (61179,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (61179, 300, 3)
+Y distribution: 1
+0    61179
+dtype: int64
+User distribution: 1
+21161    61179
+dtype: int64
+window length 320, expected length 1000 - window rejected
+(61098, 1000, 3) (61098,) (61098,) (61098,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (61098, 300, 3)
+Y distribution: 1
+1    61098
+dtype: int64
+User distribution: 1
+21149    61098
+dtype: int64
+window length 840, expected length 1000 - window rejected
+(60661, 1000, 3) (60661,) (60661,) (60661,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60661, 300, 3)
+Y distribution: 1
+0    60661
+dtype: int64
+User distribution: 1
+21168    60661
+dtype: int64
+window length 800, expected length 1000 - window rejected
+(59713, 1000, 3) (59713,) (59713,) (59713,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (59713, 300, 3)
+Y distribution: 1
+0    59713
+dtype: int64
+User distribution: 1
+21163    59713
+dtype: int64
+window length 760, expected length 1000 - window rejected
+(61026, 1000, 3) (61026,) (61026,) (61026,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (61026, 300, 3)
+Y distribution: 1
+1    61026
+dtype: int64
+User distribution: 1
+21149    61026
+dtype: int64
+window length 680, expected length 1000 - window rejected
+(61384, 1000, 3) (61384,) (61384,) (61384,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (61384, 300, 3)
+Y distribution: 1
+0    61384
+dtype: int64
+User distribution: 1
+21161    61384
+dtype: int64
+window length 880, expected length 1000 - window rejected
+(60162, 1000, 3) (60162,) (60162,) (60162,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60162, 300, 3)
+Y distribution: 1
+0    60162
+dtype: int64
+User distribution: 1
+21152    60162
+dtype: int64
+window length 480, expected length 1000 - window rejected
+(60016, 1000, 3) (60016,) (60016,) (60016,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60016, 300, 3)
+Y distribution: 1
+0    60016
+dtype: int64
+User distribution: 1
+21162    60016
+dtype: int64
+window length 640, expected length 1000 - window rejected
+(59549, 1000, 3) (59549,) (59549,) (59549,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (59549, 300, 3)
+Y distribution: 1
+0    59549
+dtype: int64
+User distribution: 1
+21138    59549
+dtype: int64
+window length 360, expected length 1000 - window rejected
+(61098, 1000, 3) (61098,) (61098,) (61098,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (61098, 300, 3)
+Y distribution: 1
+0    61098
+dtype: int64
+User distribution: 1
+21167    61098
+dtype: int64
+window length 920, expected length 1000 - window rejected
+(60442, 1000, 3) (60442,) (60442,) (60442,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60442, 300, 3)
+Y distribution: 1
+0    60442
+dtype: int64
+User distribution: 1
+21162    60442
+dtype: int64
+window length 920, expected length 1000 - window rejected
+(60927, 1000, 3) (60927,) (60927,) (60927,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60927, 300, 3)
+Y distribution: 1
+0    60927
+dtype: int64
+User distribution: 1
+21162    60927
+dtype: int64
+(60402, 1000, 3) (60402,) (60402,) (60402,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60402, 300, 3)
+Y distribution: 1
+0    60402
+dtype: int64
+User distribution: 1
+21167    60402
+dtype: int64
+window length 200, expected length 1000 - window rejected
+(60732, 1000, 3) (60732,) (60732,) (60732,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60732, 300, 3)
+Y distribution: 1
+0    60732
+dtype: int64
+User distribution: 1
+21157    60732
+dtype: int64
+window length 920, expected length 1000 - window rejected
+(60195, 1000, 3) (60195,) (60195,) (60195,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60195, 300, 3)
+Y distribution: 1
+0    60195
+dtype: int64
+User distribution: 1
+21160    60195
+dtype: int64
+window length 200, expected length 1000 - window rejected
+(60160, 1000, 3) (60160,) (60160,) (60160,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60160, 300, 3)
+Y distribution: 1
+0    60160
+dtype: int64
+User distribution: 1
+21168    60160
+dtype: int64
+window length 400, expected length 1000 - window rejected
+(59569, 1000, 3) (59569,) (59569,) (59569,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (59569, 300, 3)
+Y distribution: 1
+1    59569
+dtype: int64
+User distribution: 1
+21149    59569
+dtype: int64
+(30633, 1000, 3) (30633,) (30633,) (30633,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (30633, 300, 3)
+Y distribution: 1
+0    30633
+dtype: int64
+User distribution: 1
+21160    30633
+dtype: int64
+window length 400, expected length 1000 - window rejected
+(60160, 1000, 3) (60160,) (60160,) (60160,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60160, 300, 3)
+Y distribution: 1
+0    60160
+dtype: int64
+User distribution: 1
+21146    60160
+dtype: int64
+window length 720, expected length 1000 - window rejected
+(59505, 1000, 3) (59505,) (59505,) (59505,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (59505, 300, 3)
+Y distribution: 1
+0    59505
+dtype: int64
+User distribution: 1
+21163    59505
+dtype: int64
+window length 280, expected length 1000 - window rejected
+(60299, 1000, 3) (60299,) (60299,) (60299,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60299, 300, 3)
+Y distribution: 1
+1    60299
+dtype: int64
+User distribution: 1
+21149    60299
+dtype: int64
+window length 400, expected length 1000 - window rejected
+(61842, 1000, 3) (61842,) (61842,) (61842,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (61842, 300, 3)
+Y distribution: 1
+0    61842
+dtype: int64
+User distribution: 1
+21138    61842
+dtype: int64
+window length 520, expected length 1000 - window rejected
+(60969, 1000, 3) (60969,) (60969,) (60969,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60969, 300, 3)
+Y distribution: 1
+0    60969
+dtype: int64
+User distribution: 1
+21166    60969
+dtype: int64
+window length 200, expected length 1000 - window rejected
+(60961, 1000, 3) (60961,) (60961,) (60961,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60961, 300, 3)
+Y distribution: 1
+0    60961
+dtype: int64
+User distribution: 1
+21155    60961
+dtype: int64
+window length 600, expected length 1000 - window rejected
+(59571, 1000, 3) (59571,) (59571,) (59571,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (59571, 300, 3)
+Y distribution: 1
+0    59571
+dtype: int64
+User distribution: 1
+21146    59571
+dtype: int64
+window length 360, expected length 1000 - window rejected
+(61365, 1000, 3) (61365,) (61365,) (61365,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (61365, 300, 3)
+Y distribution: 1
+0    61365
+dtype: int64
+User distribution: 1
+21164    61365
+dtype: int64
+window length 600, expected length 1000 - window rejected
+(60927, 1000, 3) (60927,) (60927,) (60927,)
+dataset made!
+Saved in ../data/mobd_clean
+X shape: (60927, 300, 3)
+Y distribution: 1
+1    60927
+dtype: int64
+User distribution: 1
+21159    60927
+dtype: int64
+Item /mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21138_T3_AX6_20032023_acc_gyr.parquet generated an exception: No match for FieldRef.Name(p_id) in time_gyr: double
+gyr_x: double
+gyr_y: double
+gyr_z: double
+time_acc: double
+acc_x: double
+acc_y: double
+acc_z: double
+tag: string
+date: string
+timestamp: string
+__fragment_index: int32
+__batch_index: int32
+__last_in_fragment: bool
+__filename: string
