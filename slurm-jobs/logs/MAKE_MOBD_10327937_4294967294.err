@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "make_mobd.py", line 195, in <module>
+    outdir=OUTDIR)
+  File "make_mobd.py", line 71, in process_windows
+    columns=columns
+  File "/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/pandas/io/parquet.py", line 310, in read_parquet
+    return impl.read(path, columns=columns, **kwargs)
+  File "/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/pandas/io/parquet.py", line 121, in read
+    path, _, _, should_close = get_filepath_or_buffer(path)
+  File "/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/pandas/io/common.py", line 200, in get_filepath_or_buffer
+    raise ValueError(msg)
+ValueError: Invalid file path or buffer object type: <class 'list'>
