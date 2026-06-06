@@ -58,36 +58,37 @@ def is_good_quality(w):
     return True
 
 
-def process_windows(datafile, window_step_len, window_len, target_window_len, outdir):
+def process_windows(file_list, window_step_len, window_len, target_window_len, outdir):
     X_list = []
     Y_list = []
     T_list = []
     P_list = []
     columns = ["time_acc", "acc_x", "acc_y", "acc_z", "timestamp", "p_id", "overall_nep_status"]
 
-    one_person_data_t = pd.read_parquet(
-        datafile,
-        columns=columns
-    )
-    one_person_data_t.index = range(1, len(one_person_data_t) + 1)
-    pid = one_person_data_t["p_id"].max()
+    for datafile in file_list:
+        one_person_data_t = pd.read_parquet(
+            datafile,
+            columns=columns
+        )
+        one_person_data_t.index = range(1, len(one_person_data_t) + 1)
+        pid = one_person_data_t["p_id"].max()
 
-    # return one_person_data_t, pid
-    for i in range(0, len(one_person_data_t), window_step_len):
-        w = one_person_data_t.iloc[i : i + window_len]
+        # return one_person_data_t, pid
+        for i in range(0, len(one_person_data_t), window_step_len):
+            w = one_person_data_t.iloc[i : i + window_len]
 
-        if not is_good_quality(w):
-            continue
+            if not is_good_quality(w):
+                continue
 
-        x = w[["acc_x", "acc_y", "acc_z"]].values
-        t = w["timestamp"].max()
-        y = w["overall_nep_status"].max()
+            x = w[["acc_x", "acc_y", "acc_z"]].values
+            t = w["timestamp"].max()
+            y = w["overall_nep_status"].max()
 
 
-        X_list.append(x)
-        Y_list.append(y)
-        T_list.append(t)
-        P_list.append(pid)
+            X_list.append(x)
+            Y_list.append(y)
+            T_list.append(t)
+            P_list.append(pid)
 
 
     # Convert to numpy arrays
@@ -181,9 +182,21 @@ def process_all_files(datafolder, sites, window_step_len, window_len, target_win
                              )
 
 if __name__ == "__main__":
-    process_all_files(datafolder,
-                      sites,
-                      window_step_len=WINDOW_STEP_LEN,
-                      window_len=WINDOW_LEN,
-                      target_window_len=TARGET_WINDOW_LEN,
-                      outdir=OUTDIR)
+    file_list = []
+    for site in sites:
+        site_folder = os.path.join(datafolder, site)
+        tmp_file_list = locate_sensor_data(site_folder, suffix=".parquet", tag_search=False)
+        file_list.append(tmp_file_list)
+
+    process_windows(file_list,
+                    window_step_len=WINDOW_STEP_LEN,
+                    window_len=WINDOW_LEN,
+                    target_window_len=TARGET_WINDOW_LEN,
+                    outdir=OUTDIR)
+
+    # process_all_files(datafolder,
+    #                   sites,
+    #                   window_step_len=WINDOW_STEP_LEN,
+    #                   window_len=WINDOW_LEN,
+    #                   target_window_len=TARGET_WINDOW_LEN,
+    #                   outdir=OUTDIR)
