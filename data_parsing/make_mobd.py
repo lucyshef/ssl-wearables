@@ -186,7 +186,7 @@ if __name__ == "__main__":
     for site in sites:
         site_folder = os.path.join(datafolder, site)
         tmp_file_list = locate_sensor_data(site_folder, suffix=".parquet", tag_search=False)
-        file_list.append(tmp_file_list)
+        file_list.extend(tmp_file_list)
         print(file_list)
 
     process_windows(file_list,
