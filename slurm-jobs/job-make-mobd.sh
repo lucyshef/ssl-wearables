@@ -11,4 +11,4 @@ export SLURM_EXPORT_ENV=ALL
 module load Anaconda3/2024.02-1
 source activate ssl_env
 cd /users/acp25lmc/ssl-wearables/data_parsing
-python make_mobd.py
+python -u make_mobd.py
