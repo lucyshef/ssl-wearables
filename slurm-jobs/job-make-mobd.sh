@@ -2,7 +2,7 @@
 #SBATCH --job-name=MAKE_MOBD
 #SBATCH --cpus-per-task=8
 #SBATCH --mem-per-cpu=16000
-#SBATCH --time=6:00:00
+#SBATCH --time=24:00:00
 #SBATCH --mail-user=lmcheesman1@sheffield.ac.uk
 #SBATCH --mail-type=ALL
 #SBATCH --output=/users/acp25lmc/ssl-wearables/slurm-jobs/logs/%x_%j_%a.log
