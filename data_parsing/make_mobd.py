@@ -66,10 +66,15 @@ def process_windows(file_list, window_step_len, window_len, target_window_len, o
     columns = ["time_acc", "acc_x", "acc_y", "acc_z", "timestamp", "p_id", "overall_nep_status"]
 
     for datafile in file_list:
-        one_person_data_t = pd.read_parquet(
-            datafile,
-            columns=columns
-        )
+        try:
+            one_person_data_t = pd.read_parquet(
+                datafile,
+                columns=columns
+            )
+        except Exception as e:
+            print(f"\n[ERROR] skipping {datafile}: {e}")
+            continue
+
         one_person_data_t.index = range(1, len(one_person_data_t) + 1)
         pid = one_person_data_t["p_id"].max()
 
