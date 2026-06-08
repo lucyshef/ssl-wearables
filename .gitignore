@@ -65,7 +65,7 @@ processed
 .ipynb_checkpoints
 mldata
 .pt
-.log
+# .log
 
 multirun
 # vscode files
