@@ -59,10 +59,20 @@ def is_good_quality(w):
 
 
 def process_windows(file_list, window_step_len, window_len, target_window_len, outdir):
-    X_list = []
-    Y_list = []
-    T_list = []
-    P_list = []
+
+    os.makedirs(outdir, exist_ok=True)
+
+    x_path = os.path.join(outdir, "X.npy")
+    y_path = os.path.join(outdir, "Y.npy")
+    t_path = os.path.join(outdir, "time.npy")
+    p_path = os.path.join(outdir, "pid.npy")
+
+    for p in [x_path, y_path, t_path, p_path]:
+        if os.path.exists(p): os.remove(p)
+
+    # initiate count
+    total_files_processed = 0
+
     columns = ["time_acc", "acc_x", "acc_y", "acc_z", "timestamp", "p_id", "overall_nep_status"]
 
     for datafile in file_list:
@@ -77,6 +87,11 @@ def process_windows(file_list, window_step_len, window_len, target_window_len, o
 
         one_person_data_t.index = range(1, len(one_person_data_t) + 1)
         pid = one_person_data_t["p_id"].max()
+
+        X_list = []
+        Y_list = []
+        T_list = []
+        P_list = []
 
         # return one_person_data_t, pid
         for i in range(0, len(one_person_data_t), window_step_len):
@@ -95,34 +110,57 @@ def process_windows(file_list, window_step_len, window_len, target_window_len, o
             T_list.append(t)
             P_list.append(pid)
 
+        if len(X_list) > 0:
+            X_block = np.array(X_list)
+            X_block = X_block / 9.81 # convert to g
+            X_block = resize(X_block, target_window_len)
 
-    # Convert to numpy arrays
-    X = np.array(X_list)
-    Y = np.array(Y_list)
-    T = np.array(T_list)
-    P = np.array(P_list)
+            Y_block = np.array(Y_list)
+            T_block = np.array(T_list)
+            P_block = np.array(P_list)
 
-    print(X.shape, Y.shape, T.shape, P.shape)
+            print(X_block.shape, Y_block.shape, T_block.shape, P_block.shape)
 
-    # fixing unit to g
-    X = X / 9.81
-    # downsample to 30 Hz
-    X = resize(X, target_window_len)
+            # if first file create .npy, otherwise append
+            with open(x_path, 'ab' if total_files_processed > 0 else 'wb') as f:
+                np.save(f, X_block)
+            with open(y_path, 'ab' if total_files_processed > 0 else 'wb') as f:
+                np.save(f, Y_block)
+            with open(t_path, 'ab' if total_files_processed > 0 else 'wb') as f:
+                np.save(f, T_block)
+            with open(p_path, 'ab' if total_files_processed > 0 else 'wb') as f:
+                np.save(f, P_block)
+
+            total_files_processed += 1
+            print(f"Processed & saved {len(X_list)} windows from {os.path.basename(datafile)}.")
+
+    # # Convert to numpy arrays
+    # X = np.array(X_list)
+    # Y = np.array(Y_list)
+    # T = np.array(T_list)
+    # P = np.array(P_list)
+
+    # print(X.shape, Y.shape, T.shape, P.shape)
+
+    # # fixing unit to g
+    # X = X / 9.81
+    # # downsample to 30 Hz
+    # X = resize(X, target_window_len)
 
     print("dataset made!")
 
-    os.system(f"mkdir -p {outdir}")
-    np.save(os.path.join(outdir, "X"), X)
-    np.save(os.path.join(outdir, "Y"), Y)
-    np.save(os.path.join(outdir, "time"), T)
-    np.save(os.path.join(outdir, "pid"), P)
+    # os.system(f"mkdir -p {outdir}")
+    # np.save(os.path.join(outdir, "X"), X)
+    # np.save(os.path.join(outdir, "Y"), Y)
+    # np.save(os.path.join(outdir, "time"), T)
+    # np.save(os.path.join(outdir, "pid"), P)
 
-    print(f"Saved in {outdir}")
-    print("X shape:", X.shape)
-    print("Y distribution:", len(set(Y)))
-    print(pd.Series(Y).value_counts())
-    print("User distribution:", len(set(P)))
-    print(pd.Series(P).value_counts())
+    # print(f"Saved in {outdir}")
+    # print("X shape:", X.shape)
+    # print("Y distribution:", len(set(Y)))
+    # print(pd.Series(Y).value_counts())
+    # print("User distribution:", len(set(P)))
+    # print(pd.Series(P).value_counts())
 
 def locate_sensor_data(root_folder, suffix: str=".csv.gz", tag_search: bool=False, tags: list=None):
     """
