@@ -1,0 +1,2 @@
+/var/spool/slurmd.spool/job10335443/slurm_script: line 15: 44190 Killed                  python make_mobd.py
+slurmstepd: error: Detected 1 oom_kill event in StepId=10335443.batch. Some of the step tasks have been OOM Killed.
