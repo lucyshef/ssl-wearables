@@ -90,7 +90,7 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
         pid = one_person_data["p_id"].max()
 
         # ensure chronological sort
-        one_person_data['time_acc'] = pd.to_datetime(one_person_data['time_acc'])
+        # one_person_data['time_acc'] = pd.to_datetime(one_person_data['time_acc'])
         one_person_data = one_person_data.sort_values('time_acc')
 
         # find first and last times
@@ -120,17 +120,6 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
                 (one_person_data['time_acc'] >= start_time) & (one_person_data['time_acc'] < end_time)]
             print(
                 f"PID {pid}: Total duration {total_duration_seconds / 3600:.2f} hours. Picked a {hours}hr window starting at float {start_time}")
-        # else:
-        #     # Calculate total seconds available to choose a start point from
-        #     total_seconds_range = int((latest_possible_start - min_time).total_seconds())
-        #     random_offset_seconds = np.random.randint(0, total_seconds_range)
-        #
-        #     start_time = min_time + pd.Timedelta(seconds=random_offset_seconds)
-        #     end_time = start_time + pd.Timedelta(days=days)
-        #
-        #     # Slice the randomly selected 24-hour window
-        #     day_data = one_person_data[
-        #         (one_person_data['time_acc'] >= start_time) & (one_person_data['time_acc'] < end_time)]
 
         X_person = []
         Y_person = []
