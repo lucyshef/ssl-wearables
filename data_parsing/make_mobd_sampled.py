@@ -86,7 +86,7 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
         pid = one_person_data["p_id"].max()
 
         # ensure chronological sort
-        one_person_data['time_acc'] = pd.to_datetime(one_person_data['timeacc'])
+        one_person_data['time_acc'] = pd.to_datetime(one_person_data['time_acc'])
         one_person_data = one_person_data.sort_values('time_acc')
 
         # find first and last times
