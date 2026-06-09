@@ -97,13 +97,13 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
         min_time = one_person_data['time_acc'].min()
         max_time = one_person_data['time_acc'].max()
 
-        seconds_in_a_sample = hours * 60 * 60
+        seconds_in_a_sample = hours * 60 * 60 * 1000
         total_duration_seconds = max_time - min_time
 
         # # lastest possible start must be 24 hours before end of file
         # latest_possible_start = max_time - pd.Timedelta(days=days)
         #
-        if total_duration_seconds <= min_time:
+        if total_duration_seconds <= seconds_in_a_sample:
             # If the person has less than 24 hours of total data, take whatever they have
             day_data = one_person_data
             print(f"PID {pid}: Total data duration ({total_duration_seconds / 3600:.2f} hours) is less than {hours} hours. Using all data.")
