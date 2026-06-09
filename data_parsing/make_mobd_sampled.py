@@ -82,6 +82,10 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
             print(f"\n[ERROR] skipping {datafile}: {e}")
             continue
 
+        if one_person_data['time_acc'].isna().any():
+            print(f"\n[WARNING] skipping {os.path.basename(datafile)}: File contains NaN values in 'time_acc'.")
+            continue
+
         # one_person_data.index = range(1, len(one_person_data) + 1)
         pid = one_person_data["p_id"].max()
 
