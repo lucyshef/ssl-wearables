@@ -58,7 +58,7 @@ def is_good_quality(w):
     return True
 
 
-def process_windows_sampled(file_list, window_step_len, window_len, target_window_len, outdir, days=1, max_windows_per_person=1500):
+def process_windows_sampled(file_list, window_step_len, window_len, target_window_len, outdir, hours=24, max_windows_per_person=1500):
     """
     Function to selectively sample from 7 days of IMU data following ssl-wearables methodology
     (choose one 24 hour period and randomly sample 1500 windows from that period)
@@ -93,24 +93,40 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
         min_time = one_person_data['time_acc'].min()
         max_time = one_person_data['time_acc'].max()
 
-        # lastest possible start must be 24 hours before end of file
-        latest_possible_start = max_time - pd.Timedelta(days=days)
+        seconds_in_a_sample = hours * 60 * 60
+        total_duration_seconds = max_time - min_time
 
-        if latest_possible_start <= min_time:
+        # # lastest possible start must be 24 hours before end of file
+        # latest_possible_start = max_time - pd.Timedelta(days=days)
+        #
+        if total_duration_seconds <= min_time:
             # If the person has less than 24 hours of total data, take whatever they have
             day_data = one_person_data
-            print(f"PID {pid}: Total data is less than 24 hours. Using all available data.")
+            print(f"PID {pid}: Total data duration ({total_duration_seconds / 3600:.2f} hours) is less than {hours} hours. Using all data.")
         else:
-            # Calculate total seconds available to choose a start point from
-            total_seconds_range = int((latest_possible_start - min_time).total_seconds())
-            random_offset_seconds = np.random.randint(0, total_seconds_range)
+            # Calculate the latest possible float value where a 24-hr window could start
+            latest_possible_start = max_time - seconds_in_a_sample
 
-            start_time = min_time + pd.Timedelta(seconds=random_offset_seconds)
-            end_time = start_time + pd.Timedelta(days=days)
+            # Pick a random starting float timestamp within the valid range
+            start_time = np.random.uniform(min_time, latest_possible_start)
+            end_time = start_time + seconds_in_a_sample
 
-            # Slice the randomly selected 24-hour window
+            # Slice the 24-hour window using the floats
             day_data = one_person_data[
                 (one_person_data['time_acc'] >= start_time) & (one_person_data['time_acc'] < end_time)]
+            print(
+                f"PID {pid}: Total duration {total_duration_seconds / 3600:.2f} hours. Picked a {hours}hr window starting at float {start_time}")
+        # else:
+        #     # Calculate total seconds available to choose a start point from
+        #     total_seconds_range = int((latest_possible_start - min_time).total_seconds())
+        #     random_offset_seconds = np.random.randint(0, total_seconds_range)
+        #
+        #     start_time = min_time + pd.Timedelta(seconds=random_offset_seconds)
+        #     end_time = start_time + pd.Timedelta(days=days)
+        #
+        #     # Slice the randomly selected 24-hour window
+        #     day_data = one_person_data[
+        #         (one_person_data['time_acc'] >= start_time) & (one_person_data['time_acc'] < end_time)]
 
         X_person = []
         Y_person = []
