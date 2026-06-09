@@ -111,11 +111,15 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
             # Calculate the latest possible float value where a 24-hr window could start
             latest_possible_start = max_time - seconds_in_a_sample
 
-            if latest_possible_start < min_time:
+            try:
+                if latest_possible_start < min_time:
+                    start_time = min_time
+                else:
+                    # Pick a random starting float timestamp within the valid range
+                    start_time = np.random.uniform(min_time, latest_possible_start)
+            except OverflowError:
+                print(f"[WARNING] NumPy overflowed on PID {pid}. Defaulting start_time to min_time.")
                 start_time = min_time
-            else:
-                # Pick a random starting float timestamp within the valid range
-                start_time = np.random.uniform(min_time, latest_possible_start)
 
             end_time = start_time + seconds_in_a_sample
 
