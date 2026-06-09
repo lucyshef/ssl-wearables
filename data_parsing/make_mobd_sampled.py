@@ -97,7 +97,7 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
         min_time = one_person_data['time_acc'].min()
         max_time = one_person_data['time_acc'].max()
 
-        seconds_in_a_sample = hours * 60 * 60 * 1000
+        seconds_in_a_sample = hours * 60 * 60
         total_duration_seconds = max_time - min_time
 
         # # lastest possible start must be 24 hours before end of file
