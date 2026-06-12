@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=MAKE_MOBD
+#SBATCH --job-name=MAKE_MOBD_SAMPLED
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=16000
 #SBATCH --time=1:00:00
