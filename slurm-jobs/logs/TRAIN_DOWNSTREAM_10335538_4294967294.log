@@ -1,0 +1,103 @@
+/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:100.)
+  return torch._C._cuda_getDeviceCount() > 0
+/users/acp25lmc/ssl-wearables/downstream_task_evaluation.py:669: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="conf", config_name="config_eva")
+CURRENT HYDRA WORKING DIR: /users/acp25lmc/ssl-wearables/data_parsing/outputs/2026-06-08/10-34-36
+[2026-06-08 10:34:36,341][all_100k][INFO] - gpu: -1
+gpu_ids:
+- 0
+- 1
+- 2
+multi_gpu: false
+num_split: 5
+augmentation: true
+model_path: /users/acp25lmc/ssl-wearables/data_parsing/08-06-2026_10-34-36tmp.pt
+logging_path: /users/acp25lmc/ssl-wearables/data/UKBB/SSL/evaluations
+report_root: /users/acp25lmc/ssl-wearables/output/ssw/reports/
+report_path: ${report_root}${data.dataset_name}_${evaluation.evaluation_name}_${data.subject_count}_${evaluation.subR}.csv
+is_verbose: false
+data:
+  data_root: /users/acp25lmc/ssl-wearables/data/mobd_clean
+  X_path: ${data.data_root}/X.npy
+  Y_path: ${data.data_root}/Y.npy
+  PID_path: ${data.data_root}/pid.npy
+  sample_rate: 30
+  task_type: classify
+  output_size: 2
+  batch_size: 500
+  held_one_subject_out: false
+  weighted_loss_fn: true
+  dataset_name: mobd
+  subject_count: -1
+  ratio2keep: 1
+evaluation:
+  feat_hand_crafted: false
+  feat_random_cnn: false
+  model_path: /data/UKBB/SSL/day_sec_10k/logs/models
+  flip_net: false
+  flip_net_ft: true
+  flip_net_random_mlp: false
+  load_weights: true
+  freeze_weight: false
+  flip_net_path: /users/acp25lmc/ssl-wearables/model_check_point/mtl_best.mdl
+  input_size: 300
+  subR: 1
+  learning_rate: 0.0001
+  num_workers: 6
+  patience: 5
+  num_epoch: 200
+  evaluation_name: all_100k
+model:
+  learning_rate: 0.0001
+  name: mtl_time${task.time_reversal}_data${data.data_name}_lr${model.learning_rate}_resnet_v${model.resnet_version}_win_size${dataloader.epoch_len}_posR_${task.positive_ratio}_sample${dataloader.num_sample_per_subject}
+  mixed_precision: false
+  resnet_version: 1
+  warm_up_step: 5
+  lr_scale: true
+  patience: 5
+  is_ae: false
+dataloader:
+  num_sample_per_subject: 1500
+  sample_rate: 30
+  epoch_len: 10
+
+/users/acp25lmc/ssl-wearables/output/ssw/reports/mobd_all_100k_-1_1.csv
+X shape: (60927, 300, 3)
+Y shape: (60927,)
+
+Label distribution:
+1    60927
+dtype: int64
+
+
+        ##############################################
+                    Flip_net+MLP
+        ##############################################
+        
+Original X shape: (60927, 300, 3)
+No need to downsample
+X transformed shape: (60927, 3, 300)
+Train-test Flip_net+MLP...
+/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/hydra/_internal/hydra.py:127: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/next/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  configure_logging=with_log_configuration,
+Error executing job with overrides: ['data=mobd_10s', 'evaluation=all', 'evaluation.flip_net_path=/users/acp25lmc/ssl-wearables/model_check_point/mtl_best.mdl']
+Traceback (most recent call last):
+  File "/users/acp25lmc/ssl-wearables/downstream_task_evaluation.py", line 822, in main
+    evaluate_mlp(X_downsampled, Y, cfg, my_device, logger, groups=P)
+  File "/users/acp25lmc/ssl-wearables/downstream_task_evaluation.py", line 390, in evaluate_mlp
+    for train_idxs, test_idxs in folds:
+  File "/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/sklearn/model_selection/_split.py", line 1600, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/sklearn/model_selection/_split.py", line 1807, in _iter_indices
+    for group_train, group_test in super()._iter_indices(X=classes):
+  File "/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/sklearn/model_selection/_split.py", line 1712, in _iter_indices
+    default_test_size=self._default_test_size,
+  File "/users/acp25lmc/.conda/envs/ssl_env/lib/python3.7/site-packages/sklearn/model_selection/_split.py", line 2101, in _validate_shuffle_split
+    "aforementioned parameters.".format(n_samples, test_size, train_size)
+ValueError: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

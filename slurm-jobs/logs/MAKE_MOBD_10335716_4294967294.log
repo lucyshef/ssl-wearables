@@ -1,0 +1,154 @@
+scanning for files
+47 files found
+['/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21159_T2_AX6_21122022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21138_T3_AX6_20032023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21168_T2_AX6_26042023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21152_T1_AX6_30052022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21149_T3_AX6_05062023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21161_T3_AX6_21072023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21160_T2_AX6_02022023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21149_T1_AX6_11052022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21161_T4_AX6_05022024_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21168_T4_AX6_29042024_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21160_T4_AX6_24012024_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21165_T1_AX6_14092022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21152_T2_AX6_06122022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21146_T2_AX6_31102022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21161_T2_AX6_02022023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21165_T2_AX6_20042023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21162_T2_AX6_01022023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21163_T3_AX6_04082023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21138_T2_AX6_22092022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21159_T3_AX6_26062023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21155_T2_AX6_21122022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21149_T2_AX6_08112022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21167_T2_AX6_10052023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21164_T3_AX6_07072023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21166_T1_AX6_12102022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21138_T1_AX6_05042022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21162_T1_AX6_25072022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21159_T1_AX6_20062022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21163_T2_AX6_02022023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21166_T4_AX6_12032024_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21162_T3_AX6_04082023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21161_T1_AX6_25072022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21162_T4_AX6_24012024_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21155_T1_AX6_01062022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21167_T1_AX6_02112022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21149_T5_AX6_13052024_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21157_T2_AX6_09012023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21163_T4_AX6_06022024_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21146_T1_AX6_22042022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21157_T1_AX6_17062022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21168_T1_AX6_19102022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21160_T1_AX6_11072022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21164_T2_AX6_17012023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21164_T4_AX6_24012024_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21160_T3_AX6_04082023_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21163_T1_AX6_25072022_acc_gyr.parquet', '/mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21159_T4_AX6_21122023_acc_gyr.parquet']
+window length 840, expected length 1000 - window rejected
+(60929, 300, 3) (60929,) (60929,) (60929,)
+Processed & saved 60929 windows from 21159_T2_AX6_21122022_acc_gyr.parquet.
+
+[ERROR] skipping /mnt/parscratch/users/acp25lmc/joined_data_parquet/MS21/21138_T3_AX6_20032023_acc_gyr.parquet: No match for FieldRef.Name(p_id) in time_gyr: double
+gyr_x: double
+gyr_y: double
+gyr_z: double
+time_acc: double
+acc_x: double
+acc_y: double
+acc_z: double
+tag: string
+date: string
+timestamp: string
+__fragment_index: int32
+__batch_index: int32
+__last_in_fragment: bool
+__filename: string
+window length 200, expected length 1000 - window rejected
+(60160, 300, 3) (60160,) (60160,) (60160,)
+Processed & saved 60160 windows from 21168_T2_AX6_26042023_acc_gyr.parquet.
+window length 80, expected length 1000 - window rejected
+(59968, 300, 3) (59968,) (59968,) (59968,)
+Processed & saved 59968 windows from 21152_T1_AX6_30052022_acc_gyr.parquet.
+window length 760, expected length 1000 - window rejected
+(61026, 300, 3) (61026,) (61026,) (61026,)
+Processed & saved 61026 windows from 21149_T3_AX6_05062023_acc_gyr.parquet.
+(60161, 300, 3) (60161,) (60161,) (60161,)
+Processed & saved 60161 windows from 21161_T3_AX6_21072023_acc_gyr.parquet.
+(59553, 300, 3) (59553,) (59553,) (59553,)
+Processed & saved 59553 windows from 21160_T2_AX6_02022023_acc_gyr.parquet.
+window length 400, expected length 1000 - window rejected
+(59569, 300, 3) (59569,) (59569,) (59569,)
+Processed & saved 59569 windows from 21149_T1_AX6_11052022_acc_gyr.parquet.
+window length 680, expected length 1000 - window rejected
+(61384, 300, 3) (61384,) (61384,) (61384,)
+Processed & saved 61384 windows from 21161_T4_AX6_05022024_acc_gyr.parquet.
+window length 760, expected length 1000 - window rejected
+(59700, 300, 3) (59700,) (59700,) (59700,)
+Processed & saved 59700 windows from 21168_T4_AX6_29042024_acc_gyr.parquet.
+(30633, 300, 3) (30633,) (30633,) (30633,)
+Processed & saved 30633 windows from 21160_T4_AX6_24012024_acc_gyr.parquet.
+window length 760, expected length 1000 - window rejected
+(59716, 300, 3) (59716,) (59716,) (59716,)
+Processed & saved 59716 windows from 21165_T1_AX6_14092022_acc_gyr.parquet.
+window length 880, expected length 1000 - window rejected
+(60162, 300, 3) (60162,) (60162,) (60162,)
+Processed & saved 60162 windows from 21152_T2_AX6_06122022_acc_gyr.parquet.
+window length 400, expected length 1000 - window rejected
+(60160, 300, 3) (60160,) (60160,) (60160,)
+Processed & saved 60160 windows from 21146_T2_AX6_31102022_acc_gyr.parquet.
+window length 400, expected length 1000 - window rejected
+(61479, 300, 3) (61479,) (61479,) (61479,)
+Processed & saved 61479 windows from 21161_T2_AX6_02022023_acc_gyr.parquet.
+window length 640, expected length 1000 - window rejected
+(61463, 300, 3) (61463,) (61463,) (61463,)
+Processed & saved 61463 windows from 21165_T2_AX6_20042023_acc_gyr.parquet.
+window length 480, expected length 1000 - window rejected
+(60016, 300, 3) (60016,) (60016,) (60016,)
+Processed & saved 60016 windows from 21162_T2_AX6_01022023_acc_gyr.parquet.
+window length 720, expected length 1000 - window rejected
+(59505, 300, 3) (59505,) (59505,) (59505,)
+Processed & saved 59505 windows from 21163_T3_AX6_04082023_acc_gyr.parquet.
+window length 640, expected length 1000 - window rejected
+(59549, 300, 3) (59549,) (59549,) (59549,)
+Processed & saved 59549 windows from 21138_T2_AX6_22092022_acc_gyr.parquet.
+window length 960, expected length 1000 - window rejected
+(60592, 300, 3) (60592,) (60592,) (60592,)
+Processed & saved 60592 windows from 21159_T3_AX6_26062023_acc_gyr.parquet.
+window length 120, expected length 1000 - window rejected
+(61276, 300, 3) (61276,) (61276,) (61276,)
+Processed & saved 61276 windows from 21155_T2_AX6_21122022_acc_gyr.parquet.
+window length 280, expected length 1000 - window rejected
+(60299, 300, 3) (60299,) (60299,) (60299,)
+Processed & saved 60299 windows from 21149_T2_AX6_08112022_acc_gyr.parquet.
+window length 360, expected length 1000 - window rejected
+(61098, 300, 3) (61098,) (61098,) (61098,)
+Processed & saved 61098 windows from 21167_T2_AX6_10052023_acc_gyr.parquet.
+window length 400, expected length 1000 - window rejected
+(60733, 300, 3) (60733,) (60733,) (60733,)
+Processed & saved 60733 windows from 21164_T3_AX6_07072023_acc_gyr.parquet.
+window length 720, expected length 1000 - window rejected
+(61026, 300, 3) (61026,) (61026,) (61026,)
+Processed & saved 61026 windows from 21166_T1_AX6_12102022_acc_gyr.parquet.
+window length 400, expected length 1000 - window rejected
+(61842, 300, 3) (61842,) (61842,) (61842,)
+Processed & saved 61842 windows from 21138_T1_AX6_05042022_acc_gyr.parquet.
+window length 920, expected length 1000 - window rejected
+(60442, 300, 3) (60442,) (60442,) (60442,)
+Processed & saved 60442 windows from 21162_T1_AX6_25072022_acc_gyr.parquet.
+window length 840, expected length 1000 - window rejected
+(60196, 300, 3) (60196,) (60196,) (60196,)
+Processed & saved 60196 windows from 21159_T1_AX6_20062022_acc_gyr.parquet.
+window length 480, expected length 1000 - window rejected
+(59793, 300, 3) (59793,) (59793,) (59793,)
+Processed & saved 59793 windows from 21163_T2_AX6_02022023_acc_gyr.parquet.
+window length 520, expected length 1000 - window rejected
+(60969, 300, 3) (60969,) (60969,) (60969,)
+Processed & saved 60969 windows from 21166_T4_AX6_12032024_acc_gyr.parquet.
+window length 920, expected length 1000 - window rejected
+(60927, 300, 3) (60927,) (60927,) (60927,)
+Processed & saved 60927 windows from 21162_T3_AX6_04082023_acc_gyr.parquet.
+window length 760, expected length 1000 - window rejected
+(61179, 300, 3) (61179,) (61179,) (61179,)
+Processed & saved 61179 windows from 21161_T1_AX6_25072022_acc_gyr.parquet.
+window length 200, expected length 1000 - window rejected
+(59716, 300, 3) (59716,) (59716,) (59716,)
+Processed & saved 59716 windows from 21162_T4_AX6_24012024_acc_gyr.parquet.
+window length 200, expected length 1000 - window rejected
+(60961, 300, 3) (60961,) (60961,) (60961,)
+Processed & saved 60961 windows from 21155_T1_AX6_01062022_acc_gyr.parquet.
+(60402, 300, 3) (60402,) (60402,) (60402,)
+Processed & saved 60402 windows from 21167_T1_AX6_02112022_acc_gyr.parquet.
+window length 320, expected length 1000 - window rejected
+(61098, 300, 3) (61098,) (61098,) (61098,)
+Processed & saved 61098 windows from 21149_T5_AX6_13052024_acc_gyr.parquet.
+window length 680, expected length 1000 - window rejected
+(30327, 300, 3) (30327,) (30327,) (30327,)
+Processed & saved 30327 windows from 21157_T2_AX6_09012023_acc_gyr.parquet.
+window length 680, expected length 1000 - window rejected
+(49556, 300, 3) (49556,) (49556,) (49556,)
+Processed & saved 49556 windows from 21163_T4_AX6_06022024_acc_gyr.parquet.
+window length 600, expected length 1000 - window rejected
+(59571, 300, 3) (59571,) (59571,) (59571,)
+Processed & saved 59571 windows from 21146_T1_AX6_22042022_acc_gyr.parquet.
+window length 200, expected length 1000 - window rejected
+(60732, 300, 3) (60732,) (60732,) (60732,)
+Processed & saved 60732 windows from 21157_T1_AX6_17062022_acc_gyr.parquet.
+window length 840, expected length 1000 - window rejected
+(60661, 300, 3) (60661,) (60661,) (60661,)
+Processed & saved 60661 windows from 21168_T1_AX6_19102022_acc_gyr.parquet.
+window length 440, expected length 1000 - window rejected
+(15825, 300, 3) (15825,) (15825,) (15825,)
+Processed & saved 15825 windows from 21160_T1_AX6_11072022_acc_gyr.parquet.
+window length 360, expected length 1000 - window rejected
+(61365, 300, 3) (61365,) (61365,) (61365,)
+Processed & saved 61365 windows from 21164_T2_AX6_17012023_acc_gyr.parquet.
+window length 680, expected length 1000 - window rejected
+(60938, 300, 3) (60938,) (60938,) (60938,)
+Processed & saved 60938 windows from 21164_T4_AX6_24012024_acc_gyr.parquet.
+window length 920, expected length 1000 - window rejected
+(60195, 300, 3) (60195,) (60195,) (60195,)
+Processed & saved 60195 windows from 21160_T3_AX6_04082023_acc_gyr.parquet.
+window length 800, expected length 1000 - window rejected
+(59713, 300, 3) (59713,) (59713,) (59713,)
+Processed & saved 59713 windows from 21163_T1_AX6_25072022_acc_gyr.parquet.
+window length 600, expected length 1000 - window rejected
+(60927, 300, 3) (60927,) (60927,) (60927,)
+Processed & saved 60927 windows from 21159_T4_AX6_21122023_acc_gyr.parquet.
+dataset made!
