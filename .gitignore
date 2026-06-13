@@ -14,11 +14,11 @@ runs/
 data/*
 
 # intermediate files
-*.log
+# *.log
 *.pt
-*.mdl
-*.png
-*.ipynb
+# *.mdl
+# *.png
+# *.ipynb
 
 # Org-mode
 .org-id-locations
