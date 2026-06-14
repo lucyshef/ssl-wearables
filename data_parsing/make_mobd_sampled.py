@@ -133,6 +133,7 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
         Y_person = []
         T_person = []
         P_person = []
+        SD_person = [] # we don't need this for our final dataset but it for keeping track of SDs to weight the sample
 
         # 2. Extract valid windows from this specific 24 hours
         for i in range(0, len(day_data), window_step_len):
@@ -145,17 +146,31 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
             t = w["timestamp"].max()
             y = w["overall_nep_status"].max()
 
+            # calculate avg standard deviation of x, y, z
+            window_sd = np.mean(np.std(x, axis=0))
+            # handle for 0s
+            window_sd = max(window_sd, 1e-5)
+
             X_person.append(x)
             Y_person.append(y)
             T_person.append(t)
             P_person.append(pid)
+            SD_person.append(window_sd)
 
         num_extracted = len(X_person)
 
         # 3. Restrictive sampling: Downsample to exactly 1500 windows
         if num_extracted > 0:
             if num_extracted > max_windows_per_person:
-                sampled_indices = np.random.choice(num_extracted, max_windows_per_person, replace=False)
+                # convert SDs into probabilities
+                sd_array = np.array(SD_person)
+                sample_probs = sd_array / np.sum(sd_array) # give higher prob to higher SD windows
+                sampled_indices = np.random.choice(
+                    num_extracted,
+                    max_windows_per_person,
+                    replace=False,
+                    p=sample_probs
+                )
                 sampled_indices.sort()  # Keep chronological order
 
                 X_person = [X_person[idx] for idx in sampled_indices]
