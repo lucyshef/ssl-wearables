@@ -23,7 +23,7 @@ TARGET_WINDOW_LEN = int(TARGET_HZ * WINDOW_SEC)
 # DATAFILES = "/Users/catong/repos/video-imu/data/"
 # DATAFILES = DATAFILES + "wisdm/wisdm-dataset/raw/watch/accel/*.txt"
 datafolder = os.path.join("/mnt/parscratch/users/acp25lmc/joined_data_parquet")
-sites = ["MS10"] # ["MS21", "MS10", "MS24", "MS25"]
+sites = ["MS10", "MS21"] # ["MS21", "MS10", "MS24", "MS25"]
 OUTDIR = os.path.join("/mnt/parscratch/users/acp25lmc/ssl-data/mobd_sampled")
 num_workers = 4  # update this based on number of cores requested
 
@@ -70,7 +70,7 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
     T_all = []
     P_all = []
 
-    columns = ["time_acc", "acc_x", "acc_y", "acc_z", "timestamp", "p_id", "overall_nep_status"]
+    columns = ["time_acc", "acc_x", "acc_y", "acc_z", "timestamp", "p_id", "timestamp_plus_one_nep"]
 
     for datafile in file_list:
         try:
@@ -84,6 +84,10 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
 
         if one_person_data['time_acc'].isna().any():
             print(f"\n[WARNING] skipping {os.path.basename(datafile)}: File contains NaN values in 'time_acc'.")
+            continue
+
+        if one_person_data['timestamp_plus_one_nep'].isna().any():
+            print(f"\n[WARNING] skipping {os.path.basename(datafile)}: File contains NaN values in 'timestamp_plus_one_nep'.")
             continue
 
         # one_person_data.index = range(1, len(one_person_data) + 1)
@@ -144,7 +148,7 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
 
             x = w[["acc_x", "acc_y", "acc_z"]].values
             t = w["timestamp"].max()
-            y = w["overall_nep_status"].max()
+            y = w["timestamp_plus_one_nep"].max()
 
             # calculate avg standard deviation of x, y, z
             window_sd = np.mean(np.std(x, axis=0))
