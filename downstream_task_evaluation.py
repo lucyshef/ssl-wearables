@@ -402,6 +402,7 @@ def evaluate_mlp(X_feats, y, cfg, my_device, logger, groups=None):
         results.extend(result)
 
     pathlib.Path(cfg.report_root).mkdir(parents=True, exist_ok=True)
+    print("GENERATING CLASSIFICATION REPORT...")
     classification_report(results, cfg.report_path)
 
 
