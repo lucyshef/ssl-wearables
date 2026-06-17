@@ -12,6 +12,6 @@
 
 module load Anaconda3/2024.02-1
 module load CUDA/12.4.0
-source activate ssl_env
+source activate ssl_h100
 cd /users/acp25lmc/ssl-wearables/data_parsing
 python -u /users/acp25lmc/ssl-wearables/downstream_task_evaluation.py
