@@ -1,11 +1,11 @@
 defaults:
   - _self_
-  - data: rowlands_30s
+  - data: mobd_10s_sampled
   - evaluation: all
   - model: resnet
   - dataloader: ten_sec
 
-gpu: -1
+gpu: 0 # use one GPU
 gpu_ids: [0, 1, 2]  # gpus to use if multi_gpu==true
 multi_gpu: false
 num_split: 5
