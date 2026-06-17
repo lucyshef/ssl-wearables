@@ -288,3 +288,224 @@ PID 10399: Picked random day. Sampled 1500 from 8511 valid windows.
 PID 10415: Total duration 168.00 hours. Picked a 24hr window starting at float 1651659966.5154731
 window length 79, expected length 1000 - window rejected
 PID 10415: Picked random day. Sampled 1500 from 8505 valid windows.
+PID 10383: Total duration 168.00 hours. Picked a 24hr window starting at float 1646396011.6704957
+window length 68, expected length 1000 - window rejected
+PID 10383: Picked random day. Sampled 1500 from 9148 valid windows.
+PID 10382: Total duration 168.00 hours. Picked a 24hr window starting at float 1662888984.3112543
+window length 910, expected length 1000 - window rejected
+PID 10382: Picked random day. Sampled 1500 from 8543 valid windows.
+
+[WARNING] skipping 10378_T1_MM_09032022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10430: Total duration 168.00 hours. Picked a 24hr window starting at float 1673721274.007168
+window length 893, expected length 1000 - window rejected
+PID 10430: Picked random day. Sampled 1500 from 8526 valid windows.
+
+[WARNING] skipping 10391_T5_MM_18042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10400: Total duration 168.00 hours. Picked a 24hr window starting at float 1665786032.4081883
+window length 876, expected length 1000 - window rejected
+PID 10400: Picked random day. Sampled 1500 from 8529 valid windows.
+PID 10427: Total duration 168.00 hours. Picked a 24hr window starting at float 1686275054.1901658
+window length 96, expected length 1000 - window rejected
+PID 10427: Picked random day. Sampled 1500 from 8525 valid windows.
+
+[WARNING] skipping 10426_T5_AX6_03062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10413: Total duration 167.00 hours. Picked a 24hr window starting at float 1666775427.771949
+window length 764, expected length 1000 - window rejected
+PID 10413: Picked random day. Sampled 1500 from 8707 valid windows.
+PID 10386: Total duration 168.00 hours. Picked a 24hr window starting at float 1646982494.760254
+window length 597, expected length 1000 - window rejected
+PID 10386: Picked random day. Sampled 1500 from 8707 valid windows.
+PID 10429: Total duration 168.00 hours. Picked a 24hr window starting at float 1673666727.837373
+window length 279, expected length 1000 - window rejected
+PID 10429: Picked random day. Sampled 1500 from 8755 valid windows.
+PID 10408: Total duration 168.00 hours. Picked a 24hr window starting at float 1666205865.186034
+window length 508, expected length 1000 - window rejected
+PID 10408: Picked random day. Sampled 1500 from 8685 valid windows.
+
+[WARNING] skipping 10396_T5_AX6_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10393: Total duration 168.00 hours. Picked a 24hr window starting at float 1694794244.204338
+window length 427, expected length 1000 - window rejected
+PID 10393: Picked random day. Sampled 1500 from 8752 valid windows.
+PID 10386: Total duration 168.00 hours. Picked a 24hr window starting at float 1678987155.6011128
+window length 955, expected length 1000 - window rejected
+PID 10386: Picked random day. Sampled 1500 from 8614 valid windows.
+
+[WARNING] skipping 10381_T2_MM_27092022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10396: Total duration 168.00 hours. Picked a 24hr window starting at float 1682393678.7791212
+window length 490, expected length 1000 - window rejected
+PID 10396: Picked random day. Sampled 1500 from 8604 valid windows.
+PID 10423: Total duration 168.00 hours. Picked a 24hr window starting at float 1669556394.618057
+window length 430, expected length 1000 - window rejected
+PID 10423: Picked random day. Sampled 1500 from 8647 valid windows.
+PID 10388: Total duration 168.00 hours. Picked a 24hr window starting at float 1647186595.888929
+window length 626, expected length 1000 - window rejected
+PID 10388: Picked random day. Sampled 1500 from 9156 valid windows.
+PID 10391: Total duration 168.00 hours. Picked a 24hr window starting at float 1696518644.5605147
+window length 72, expected length 1000 - window rejected
+PID 10391: Picked random day. Sampled 1500 from 9138 valid windows.
+PID 10399: Total duration 168.00 hours. Picked a 24hr window starting at float 1680304165.1375823
+window length 680, expected length 1000 - window rejected
+PID 10399: Picked random day. Sampled 1500 from 8685 valid windows.
+PID 10416: Total data duration (1.00 hours) is less than 24 hours. Using all data.
+window length 600, expected length 1000 - window rejected
+PID 10416: Picked random day. Kept all 354 windows (under 1500).
+PID 10434: Total duration 168.00 hours. Picked a 24hr window starting at float 1693844609.7855031
+window length 223, expected length 1000 - window rejected
+PID 10434: Picked random day. Sampled 1500 from 8505 valid windows.
+PID 10430: Total duration 168.00 hours. Picked a 24hr window starting at float 1658818642.063897
+window length 45, expected length 1000 - window rejected
+PID 10430: Picked random day. Sampled 1500 from 8530 valid windows.
+PID 10403: Total duration 168.00 hours. Picked a 24hr window starting at float 1681484791.4223776
+window length 834, expected length 1000 - window rejected
+PID 10403: Picked random day. Sampled 1500 from 8617 valid windows.
+
+[WARNING] skipping 10388_T3_MM_23032023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10433_T4_AX6_21032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10391: Total duration 168.00 hours. Picked a 24hr window starting at float 1647893720.4733503
+window length 745, expected length 1000 - window rejected
+PID 10391: Picked random day. Sampled 1500 from 9261 valid windows.
+PID 10400: Total duration 168.00 hours. Picked a 24hr window starting at float 1680854984.5833883
+window length 706, expected length 1000 - window rejected
+PID 10400: Picked random day. Sampled 1500 from 8522 valid windows.
+PID 10425: Total duration 168.00 hours. Picked a 24hr window starting at float 1685858320.1731648
+window length 323, expected length 1000 - window rejected
+PID 10425: Picked random day. Sampled 1500 from 8522 valid windows.
+
+[WARNING] skipping 10380_T2_MM_06092022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10390_T1_MM_29032022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10432_T2_MM_24082023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10426: Total duration 168.00 hours. Picked a 24hr window starting at float 1670897585.1564574
+window length 331, expected length 1000 - window rejected
+PID 10426: Picked random day. Sampled 1500 from 8755 valid windows.
+PID 10433: Total duration 168.00 hours. Picked a 24hr window starting at float 1661607667.90618
+window length 897, expected length 1000 - window rejected
+PID 10433: Picked random day. Sampled 1500 from 8743 valid windows.
+PID 10400: Total duration 168.00 hours. Picked a 24hr window starting at float 1697729271.5412314
+window length 272, expected length 1000 - window rejected
+PID 10400: Picked random day. Sampled 1500 from 8505 valid windows.
+PID 10427: Total duration 168.00 hours. Picked a 24hr window starting at float 1654825171.9201286
+window length 81, expected length 1000 - window rejected
+PID 10427: Picked random day. Sampled 1500 from 8495 valid windows.
+PID 10415: Total duration 168.00 hours. Picked a 24hr window starting at float 1701130155.2325304
+window length 755, expected length 1000 - window rejected
+PID 10415: Picked random day. Sampled 1500 from 8511 valid windows.
+PID 10412: Total duration 168.00 hours. Picked a 24hr window starting at float 1665668655.7742248
+window length 57, expected length 1000 - window rejected
+PID 10412: Picked random day. Sampled 1500 from 8544 valid windows.
+PID 10379: Total duration 168.00 hours. Picked a 24hr window starting at float 1676991758.0491455
+window length 782, expected length 1000 - window rejected
+PID 10379: Picked random day. Sampled 1500 from 8707 valid windows.
+PID 10426: Total duration 168.00 hours. Picked a 24hr window starting at float 1654778049.1961868
+window length 941, expected length 1000 - window rejected
+PID 10426: Picked random day. Sampled 1500 from 8524 valid windows.
+
+[WARNING] skipping 10389_T3_MM_03042023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10390: Total duration 168.00 hours. Picked a 24hr window starting at float 1664646283.1580603
+window length 317, expected length 1000 - window rejected
+PID 10390: Picked random day. Sampled 1500 from 8502 valid windows.
+PID 10434: Total duration 168.00 hours. Picked a 24hr window starting at float 1677746607.2353463
+window length 523, expected length 1000 - window rejected
+PID 10434: Picked random day. Sampled 1500 from 8617 valid windows.
+PID 10384: Total duration 168.00 hours. Picked a 24hr window starting at float 1680701285.0476973
+window length 932, expected length 1000 - window rejected
+PID 10384: Picked random day. Sampled 1500 from 8799 valid windows.
+PID 10395: Total duration 168.00 hours. Picked a 24hr window starting at float 1664384336.8904443
+window length 987, expected length 1000 - window rejected
+PID 10395: Picked random day. Sampled 1500 from 8568 valid windows.
+
+[WARNING] skipping 10393_T5_AX6_13052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10406_T5_AX6_31052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10410: Total duration 168.00 hours. Picked a 24hr window starting at float 1650683363.7843065
+window length 28, expected length 1000 - window rejected
+PID 10410: Picked random day. Sampled 1500 from 8730 valid windows.
+
+[WARNING] skipping 10432_T3_MM_26092023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10381_T5_AX6_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10376: Total duration 168.00 hours. Picked a 24hr window starting at float 1676510452.7198043
+window length 239, expected length 1000 - window rejected
+PID 10376: Picked random day. Sampled 1500 from 8647 valid windows.
+PID 10429: Total duration 168.00 hours. Picked a 24hr window starting at float 1688467852.2031639
+window length 939, expected length 1000 - window rejected
+PID 10429: Picked random day. Sampled 1500 from 8743 valid windows.
+PID 10396: Total duration 168.00 hours. Picked a 24hr window starting at float 1696738391.2176278
+window length 372, expected length 1000 - window rejected
+PID 10396: Picked random day. Sampled 1500 from 8696 valid windows.
+PID 10429: Total duration 168.00 hours. Picked a 24hr window starting at float 1655420283.8566957
+window length 377, expected length 1000 - window rejected
+PID 10429: Picked random day. Sampled 1500 from 8752 valid windows.
+PID 10385: Total duration 168.00 hours. Picked a 24hr window starting at float 1697248838.0528786
+window length 258, expected length 1000 - window rejected
+PID 10385: Picked random day. Sampled 1500 from 8624 valid windows.
+PID 10429: Total duration 168.00 hours. Picked a 24hr window starting at float 1701121823.990257
+window length 880, expected length 1000 - window rejected
+PID 10429: Picked random day. Sampled 1500 from 8543 valid windows.
+
+[WARNING] skipping 10408_T5_AX6_31052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10426: Total duration 168.00 hours. Picked a 24hr window starting at float 1701728740.8257873
+window length 967, expected length 1000 - window rejected
+PID 10426: Picked random day. Sampled 1500 from 8568 valid windows.
+
+[WARNING] skipping 10384_T2_MM_27092022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10388_T5_MM_21052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10431_T4_MM_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10377: Total duration 168.00 hours. Picked a 24hr window starting at float 1644982150.9720764
+window length 243, expected length 1000 - window rejected
+PID 10377: Picked random day. Sampled 1500 from 9156 valid windows.
+PID 10423: Total duration 168.00 hours. Picked a 24hr window starting at float 1685317847.8414938
+window length 802, expected length 1000 - window rejected
+PID 10423: Picked random day. Sampled 1500 from 8539 valid windows.
+PID 10433: Total duration 168.00 hours. Picked a 24hr window starting at float 1677973488.8283818
+window length 16, expected length 1000 - window rejected
+PID 10433: Picked random day. Sampled 1500 from 8744 valid windows.
+PID 10419: Total duration 168.00 hours. Picked a 24hr window starting at float 1652315646.2656863
+window length 694, expected length 1000 - window rejected
+PID 10419: Picked random day. Sampled 1500 from 8526 valid windows.
+PID 10424: Total duration 168.00 hours. Picked a 24hr window starting at float 1653606962.3357217
+window length 441, expected length 1000 - window rejected
+PID 10424: Picked random day. Sampled 1500 from 8597 valid windows.
+
+[WARNING] skipping 10384_T5_MM_10042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10380_T5_MM_19032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10376_T5_AX6_14032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10378: Total duration 168.00 hours. Picked a 24hr window starting at float 1678530648.0994213
+window length 568, expected length 1000 - window rejected
+PID 10378: Picked random day. Sampled 1500 from 8961 valid windows.
+PID 10381: Total duration 168.00 hours. Picked a 24hr window starting at float 1695066819.0403643
+window length 358, expected length 1000 - window rejected
+PID 10381: Picked random day. Sampled 1500 from 8495 valid windows.
+PID 10420: Total duration 168.00 hours. Picked a 24hr window starting at float 1652652647.4671357
+window length 138, expected length 1000 - window rejected
+PID 10420: Picked random day. Sampled 1500 from 8647 valid windows.
+PID 10389: Total duration 168.00 hours. Picked a 24hr window starting at float 1694931034.8222287
+window length 804, expected length 1000 - window rejected
+PID 10389: Picked random day. Sampled 1500 from 9102 valid windows.
+PID 10431: Total duration 168.00 hours. Picked a 24hr window starting at float 1690961705.4036403
+window length 413, expected length 1000 - window rejected
+PID 10431: Picked random day. Sampled 1500 from 8696 valid windows.
+
+[WARNING] skipping 10391_T2_MM_20102022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10419: Total duration 168.00 hours. Picked a 24hr window starting at float 1669140168.2721953
+window length 970, expected length 1000 - window rejected
+PID 10419: Picked random day. Sampled 1500 from 8623 valid windows.
+PID 10435: Total duration 168.00 hours. Picked a 24hr window starting at float 1662479737.077658
+window length 241, expected length 1000 - window rejected
+PID 10435: Picked random day. Sampled 1500 from 8696 valid windows.
+
+[WARNING] skipping 10415_T5_AX6_17062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10395: Total duration 169.00 hours. Picked a 24hr window starting at float 1648307656.9665983
+window length 296, expected length 1000 - window rejected
+PID 10395: Picked random day. Sampled 1500 from 8626 valid windows.
+
+[WARNING] skipping 10378_T5_AX6_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10386: Total duration 168.00 hours. Picked a 24hr window starting at float 1662906437.8545544
+window length 830, expected length 1000 - window rejected
+PID 10386: Picked random day. Sampled 1500 from 8755 valid windows.

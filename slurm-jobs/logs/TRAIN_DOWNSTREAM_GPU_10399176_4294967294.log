@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/users/acp25lmc/ssl-wearables/downstream_task_evaluation.py", line 22, in <module>
+    from sslearning.data.data_loader import NormalDataset
+  File "/users/acp25lmc/ssl-wearables/sslearning/data/data_loader.py", line 12, in <module>
+    import sslearning.data.data_transformation as my_transforms
+  File "/users/acp25lmc/ssl-wearables/sslearning/data/data_transformation.py", line 2, in <module>
+    from transforms3d.axangles import axangle2mat  # for rotation
+ModuleNotFoundError: No module named 'transforms3d'
