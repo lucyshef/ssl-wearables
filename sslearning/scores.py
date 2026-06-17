@@ -3,7 +3,7 @@ import sklearn.metrics as metrics
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.metrics import confusion_matrix, classification_report as sklearn_report # had to rename as there is already a classification_report here...
 
 
 def full_evaluation(y_true, y_pred, report_path):
@@ -11,7 +11,7 @@ def full_evaluation(y_true, y_pred, report_path):
     Generates a full overall text report and saves a visual Confusion Matrix.
     """
     # generate classification report
-    print("\n", classification_report(y_true, y_pred, zero_division=0), "\n")
+    print("\n", sklearn_report(y_true, y_pred, zero_division=0), "\n")
 
     # generate confusion matrix
     cm = confusion_matrix(y_true, y_pred)
