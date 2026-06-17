@@ -509,3 +509,63 @@ PID 10395: Picked random day. Sampled 1500 from 8626 valid windows.
 PID 10386: Total duration 168.00 hours. Picked a 24hr window starting at float 1662906437.8545544
 window length 830, expected length 1000 - window rejected
 PID 10386: Picked random day. Sampled 1500 from 8755 valid windows.
+PID 10416: Total duration 168.00 hours. Picked a 24hr window starting at float 1652189601.728137
+window length 808, expected length 1000 - window rejected
+PID 10416: Picked random day. Sampled 1500 from 8755 valid windows.
+PID 10431: Total duration 168.00 hours. Picked a 24hr window starting at float 1674842863.5121334
+window length 687, expected length 1000 - window rejected
+PID 10431: Picked random day. Sampled 1500 from 8522 valid windows.
+PID 21162: Total duration 168.00 hours. Picked a 24hr window starting at float 1656441633.3729308
+window length 772, expected length 1000 - window rejected
+PID 21162: Picked random day. Sampled 1500 from 8634 valid windows.
+PID 21149: Total duration 168.00 hours. Picked a 24hr window starting at float 1684066606.8967726
+window length 51, expected length 1000 - window rejected
+PID 21149: Picked random day. Sampled 1500 from 8718 valid windows.
+PID 21161: Total duration 168.00 hours. Picked a 24hr window starting at float 1688457031.1306546
+window length 510, expected length 1000 - window rejected
+PID 21161: Picked random day. Sampled 1500 from 8594 valid windows.
+PID 21163: Total duration 168.00 hours. Picked a 24hr window starting at float 1674372385.4779413
+window length 46, expected length 1000 - window rejected
+PID 21163: Picked random day. Sampled 1500 from 8542 valid windows.
+PID 21163: Total duration 168.00 hours. Picked a 24hr window starting at float 1656386752.1407914
+window length 697, expected length 1000 - window rejected
+PID 21163: Picked random day. Sampled 1500 from 8530 valid windows.
+PID 21165: Total duration 169.00 hours. Picked a 24hr window starting at float 1679371610.5688956
+window length 571, expected length 1000 - window rejected
+PID 21165: Picked random day. Sampled 1500 from 8728 valid windows.
+PID 21161: Total duration 168.00 hours. Picked a 24hr window starting at float 1674076161.4783373
+window length 906, expected length 1000 - window rejected
+PID 21161: Picked random day. Sampled 1500 from 8782 valid windows.
+PID 21162: Total duration 168.00 hours. Picked a 24hr window starting at float 1673615540.0641413
+window length 805, expected length 1000 - window rejected
+PID 21162: Picked random day. Sampled 1500 from 8573 valid windows.
+PID 21157: Total duration 168.00 hours. Picked a 24hr window starting at float 1653297676.0236745
+window length 72, expected length 1000 - window rejected
+PID 21157: Picked random day. Sampled 1500 from 8676 valid windows.
+PID 21138: Total duration 169.00 hours. Picked a 24hr window starting at float 1648519370.554243
+window length 371, expected length 1000 - window rejected
+PID 21138: Picked random day. Sampled 1500 from 8782 valid windows.
+PID 21138: Total data duration (17.43 hours) is less than 24 hours. Using all data.
+window length 960, expected length 1000 - window rejected
+PID 21138: Picked random day. Sampled 1500 from 6293 valid windows.
+PID 21149: Total duration 167.00 hours. Picked a 24hr window starting at float 1666919361.720584
+window length 935, expected length 1000 - window rejected
+PID 21149: Picked random day. Sampled 1500 from 8665 valid windows.
+PID 21165: Total duration 168.00 hours. Picked a 24hr window starting at float 1661571575.3050394
+window length 28, expected length 1000 - window rejected
+PID 21165: Picked random day. Sampled 1500 from 8531 valid windows.
+PID 21161: Total duration 168.00 hours. Picked a 24hr window starting at float 1656030446.2341015
+window length 785, expected length 1000 - window rejected
+PID 21161: Picked random day. Sampled 1500 from 8739 valid windows.
+
+[WARNING] skipping 21168_T4_AX6_29042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21155: Total duration 168.00 hours. Picked a 24hr window starting at float 1669508441.0510623
+window length 787, expected length 1000 - window rejected
+PID 21155: Picked random day. Sampled 1500 from 8753 valid windows.
+PID 21159: Total duration 168.00 hours. Picked a 24hr window starting at float 1684988982.0182865
+window length 151, expected length 1000 - window rejected
+PID 21159: Picked random day. Sampled 1500 from 8656 valid windows.
+PID 21160: Total duration 168.00 hours. Picked a 24hr window starting at float 1673361151.8015783
+window length 645, expected length 1000 - window rejected
+PID 21160: Picked random day. Sampled 1500 from 8507 valid windows.
+PID 21146: Total duration 168.00 hours. Picked a 24hr window starting at float 1665604277.679515
