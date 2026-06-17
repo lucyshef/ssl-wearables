@@ -1,5 +1,3 @@
-stfp test again
-
 # Local implementation notes
 ## Evaluation Environment (H100)
 
