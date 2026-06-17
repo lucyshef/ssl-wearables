@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/users/acp25lmc/ssl-wearables/downstream_task_evaluation.py", line 19, in <module>
+    from sslearning.scores import classification_scores, classification_report, full_evaluation
+  File "/users/acp25lmc/ssl-wearables/sslearning/scores.py", line 7, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
