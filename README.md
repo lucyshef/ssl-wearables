@@ -11,7 +11,7 @@ Follow these steps to recreate the environment specifically for running `downstr
    conda create -n ssl_h100 python=3.10 -y
    conda activate ssl_h100
    conda install pandas -y
-   pip install numpy scipy imbalanced-learn scikit-learn joblib tqdm torchvision hydra-core
+   pip install numpy scipy imbalanced-learn scikit-learn joblib tqdm torchvision hydra-core transforms3d
    ```
 
 # Multi-task self-supervised learning for wearables
