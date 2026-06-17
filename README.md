@@ -1,3 +1,19 @@
+# Local implementation notes
+## Evaluation Environment (H100)
+
+The original repository was designed for Python 3.7 and older CUDA versions. To run the downstream evaluation script on modern hardware (specifically NVIDIA H100 GPUs), a modern environment using Python 3.10 and CUDA 12.1 is required. 
+
+Follow these steps to recreate the environment specifically for running `downstream_task_evaluation.py` on H100 GPU.
+
+### Environment Setup
+
+   ```bash
+   conda create -n ssl_h100 python=3.10 -y
+   conda activate ssl_h100
+   conda install pandas -y
+   pip install numpy scipy imbalanced-learn scikit-learn joblib tqdm torchvision hydra-core
+   ```
+
 # Multi-task self-supervised learning for wearables
 
 This repository is the official implementation of [Self-supervised learning for Human Activity Recognition Using 700,000 Person-days of Wearable Data](https://arxiv.org/abs/2206.02909).
