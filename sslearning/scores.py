@@ -3,7 +3,33 @@ import sklearn.metrics as metrics
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from sklearn.metrics import confusion_matrix, classification_report
 
+
+def full_evaluation(y_true, y_pred, report_path):
+    """
+    Generates a full overall text report and saves a visual Confusion Matrix.
+    """
+    # generate classification report
+    print("\n", classification_report(y_true, y_pred, zero_division=0), "\n")
+
+    # generate confusion matrix
+    cm = confusion_matrix(y_true, y_pred)
+    print(cm)
+
+    # plot cm
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', cbar=False)
+    plt.xlabel('Predicted Labels')
+    plt.ylabel('True Labels')
+    plt.title('Confusion Matrix')
+
+    # save cm
+    matrix_path = report_path.replace('.csv', '_confusion_matrix.png')
+    plt.savefig(matrix_path, bbox_inches='tight', dpi=300)
+    plt.close()
+
+    print(f" Saved confusion matrix to: {matrix_path}")
 
 def summarise_scores(scores, name=None, average=False):
     """Compute median and interquartile range of scores

@@ -16,7 +16,7 @@ import pathlib
 
 # SSL net
 from sslearning.models.accNet import cnn1, SSLNET, Resnet, EncoderMLP
-from sslearning.scores import classification_scores, classification_report
+from sslearning.scores import classification_scores, classification_report, full_evaluation
 import copy
 from sklearn import preprocessing
 from sslearning.data.data_loader import NormalDataset
@@ -364,7 +364,7 @@ def train_test_mlp(
 
         result = classification_scores(subject_true, subject_pred)
         results.append(result)
-    return results
+    return results, y_test, y_test_pred
 
 
 def evaluate_mlp(X_feats, y, cfg, my_device, logger, groups=None):
@@ -387,8 +387,10 @@ def evaluate_mlp(X_feats, y, cfg, my_device, logger, groups=None):
     folds = get_train_test_split(cfg, X_feats, y, groups)
 
     results = []
+    y_trues = []
+    y_preds = []
     for train_idxs, test_idxs in folds:
-        result = train_test_mlp(
+        result, y_true, y_pred = train_test_mlp(
             train_idxs,
             test_idxs,
             X_feats,
@@ -400,10 +402,15 @@ def evaluate_mlp(X_feats, y, cfg, my_device, logger, groups=None):
             encoder=le,
         )
         results.extend(result)
+        y_trues.extend(y_true)
+        y_preds.extend(y_pred)
 
     pathlib.Path(cfg.report_root).mkdir(parents=True, exist_ok=True)
-    print("GENERATING CLASSIFICATION REPORT...")
+    print("Generating participant wise report")
     classification_report(results, cfg.report_path)
+    print("Generating model report")
+    full_evaluation(y_trues, y_preds, cfg.report_path)
+
 
 
 def train_test_rf(
