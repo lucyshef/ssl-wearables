@@ -1,0 +1,651 @@
+scanning for files
+188 files found
+['/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10409_T2_AX6_10112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10381_T3_MM_21032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10386_T4_AX6_16102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10403_T4_AX6_25102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10423_T4_AX6_24012024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10423_T1_AX6_10062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10411_T1_AX6_13052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10412_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10416_T4_AX6_23112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10419_T4_AX6_06122023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10427_T2_AX6_05012023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10403_T2_AX6_27102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10408_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10403_T5_AX6_12062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10425_T2_AX6_05012023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10398_T1_AX6_21042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10396_T2_AX6_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10409_T1_AX6_17052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10395_T5_AX6_31052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10395_T4_AX6_17102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10379_T5_AX6_17052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10416_T2_AX6_09112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10383_T5_MM_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10390_T4_AX6_17102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10380_T3_MM_27032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10378_T4_MM_20092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10383_T2_MM_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10415_T3_AX6_02062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10400_T5_AX6_13052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10409_T5_AX6_10042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10379_T4_AX6_10102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10379_T2_MM_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10384_T4_MM_20092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10388_T4_MM_07112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10399_T5_AX6_05062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10399_T2_AX6_02112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10424_T2_AX6_15122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10383_T4_MM_03112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10409_T4_AX6_23102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10382_T4_AX6_06102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10413_T4_AX6_06112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10413_T5_AX6_17062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10411_T5_AX6_11062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10390_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10430_T4_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10406_T4_AX6_17102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10424_T4_AX6_05122023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10376_T2_AX6_02092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10434_T4_AX6_15032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10430_T3_AX6_28072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10408_T1_AX6_29042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10389_T5_MM_10042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10379_T1_MM_09032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10376_T4_AX6_22092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10390_T5_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10413_T1_AX6_16052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10413_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10400_T1_AX6_21042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10408_T4_AX6_27102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10386_T5_AX6_10042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10424_T3_AX6_05072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10415_T2_AX6_23112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10380_T4_MM_05092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10425_T4_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10388_T2_MM_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10385_T5_AX6_17052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10396_T1_AX6_13042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10427_T5_AX6_11062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10385_T3_AX6_24032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10406_T1_AX6_29042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10426_T3_AX6_05072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10384_T1_MM_18032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10425_T5_AX6_05062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10382_T3_AX6_24032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10419_T3_AX6_01062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10382_T5_AX6_10042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10382_T1_AX6_18032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10432_T1_MM_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10380_T1_MM_10032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10381_T1_MM_10032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10419_T5_AX6_27052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10434_T1_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10399_T1_AX6_21042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10383_T3_MM_27032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10385_T2_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10406_T3_AX6_01062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10425_T1_AX6_14062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10395_T3_AX6_13042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10389_T2_MM_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10393_T3_AX6_13042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10391_T3_MM_31032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10385_T1_AX6_18032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10412_T1_AX6_18052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10411_T4_AX6_14112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10393_T1_AX6_07042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10412_T4_AX6_14112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10403_T1_AX6_21042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10433_T3_AX6_20092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10376_T1_MM_25022022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10389_T1_MM_29032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10406_T2_AX6_02112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10431_T1_AX6_16082022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10399_T4_AX6_22092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10415_T1_AX6_19052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10383_T1_MM_18032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10382_T2_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10378_T1_MM_09032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10430_T2_AX6_03022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10391_T5_MM_18042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10400_T2_AX6_27102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10427_T3_AX6_15062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10426_T5_AX6_03062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10413_T2_AX6_10112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10386_T1_AX6_18032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10429_T2_AX6_05072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10408_T2_AX6_10112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10396_T5_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10393_T4_AX6_17102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10386_T3_AX6_03042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10381_T2_MM_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10396_T3_AX6_31052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10423_T2_AX6_08122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10388_T1_MM_29032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10391_T4_MM_26102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10399_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10416_T3_AX6_26072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10434_T3_AX6_21092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10430_T1_AX6_16082022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10403_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10388_T3_MM_23032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10433_T4_AX6_21032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10391_T1_MM_29032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10400_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10425_T3_AX6_01082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10380_T2_MM_06092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10390_T1_MM_29032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10432_T2_MM_24082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10426_T2_AX6_05012023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10433_T1_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10400_T4_AX6_02112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10427_T1_AX6_04072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10415_T4_AX6_21122023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10412_T2_AX6_14112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10379_T3_AX6_03032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10426_T1_AX6_04072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10389_T3_MM_03042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10390_T2_AX6_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10434_T2_AX6_15032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10384_T3_MM_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10395_T2_AX6_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10393_T5_AX6_13052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10406_T5_AX6_31052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10410_T1_AX6_03052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10432_T3_MM_26092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10381_T5_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10376_T3_AX6_24022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10429_T3_AX6_01082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10396_T4_AX6_23102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10429_T1_AX6_11072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10385_T4_AX6_01112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10429_T4_AX6_21122023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10408_T5_AX6_31052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10426_T4_AX6_10012024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10384_T2_MM_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10388_T5_MM_21052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10431_T4_MM_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10377_T1_MM_25022022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10423_T3_AX6_23062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10433_T2_AX6_15032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10419_T1_AX6_08062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10424_T1_AX6_13062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10384_T5_MM_10042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10380_T5_MM_19032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10376_T5_AX6_14032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10378_T3_MM_23032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10381_T4_AX6_17102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10420_T1_AX6_30052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10389_T4_MM_26092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10431_T3_AX6_22092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10391_T2_MM_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10419_T2_AX6_01122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10435_T1_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10415_T5_AX6_17062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10395_T1_AX6_13042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10378_T5_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10386_T2_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10416_T1_AX6_27052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10431_T2_AX6_14022023_acc_gyr_tagged.parquet']
+scanning for files
+47 files found
+['/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10409_T2_AX6_10112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10381_T3_MM_21032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10386_T4_AX6_16102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10403_T4_AX6_25102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10423_T4_AX6_24012024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10423_T1_AX6_10062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10411_T1_AX6_13052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10412_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10416_T4_AX6_23112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10419_T4_AX6_06122023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10427_T2_AX6_05012023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10403_T2_AX6_27102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10408_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10403_T5_AX6_12062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10425_T2_AX6_05012023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10398_T1_AX6_21042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10396_T2_AX6_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10409_T1_AX6_17052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10395_T5_AX6_31052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10395_T4_AX6_17102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10379_T5_AX6_17052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10416_T2_AX6_09112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10383_T5_MM_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10390_T4_AX6_17102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10380_T3_MM_27032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10378_T4_MM_20092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10383_T2_MM_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10415_T3_AX6_02062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10400_T5_AX6_13052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10409_T5_AX6_10042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10379_T4_AX6_10102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10379_T2_MM_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10384_T4_MM_20092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10388_T4_MM_07112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10399_T5_AX6_05062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10399_T2_AX6_02112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10424_T2_AX6_15122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10383_T4_MM_03112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10409_T4_AX6_23102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10382_T4_AX6_06102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10413_T4_AX6_06112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10413_T5_AX6_17062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10411_T5_AX6_11062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10390_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10430_T4_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10406_T4_AX6_17102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10424_T4_AX6_05122023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10376_T2_AX6_02092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10434_T4_AX6_15032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10430_T3_AX6_28072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10408_T1_AX6_29042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10389_T5_MM_10042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10379_T1_MM_09032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10376_T4_AX6_22092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10390_T5_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10413_T1_AX6_16052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10413_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10400_T1_AX6_21042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10408_T4_AX6_27102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10386_T5_AX6_10042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10424_T3_AX6_05072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10415_T2_AX6_23112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10380_T4_MM_05092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10425_T4_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10388_T2_MM_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10385_T5_AX6_17052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10396_T1_AX6_13042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10427_T5_AX6_11062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10385_T3_AX6_24032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10406_T1_AX6_29042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10426_T3_AX6_05072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10384_T1_MM_18032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10425_T5_AX6_05062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10382_T3_AX6_24032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10419_T3_AX6_01062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10382_T5_AX6_10042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10382_T1_AX6_18032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10432_T1_MM_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10380_T1_MM_10032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10381_T1_MM_10032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10419_T5_AX6_27052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10434_T1_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10399_T1_AX6_21042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10383_T3_MM_27032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10385_T2_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10406_T3_AX6_01062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10425_T1_AX6_14062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10395_T3_AX6_13042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10389_T2_MM_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10393_T3_AX6_13042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10391_T3_MM_31032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10385_T1_AX6_18032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10412_T1_AX6_18052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10411_T4_AX6_14112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10393_T1_AX6_07042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10412_T4_AX6_14112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10403_T1_AX6_21042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10433_T3_AX6_20092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10376_T1_MM_25022022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10389_T1_MM_29032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10406_T2_AX6_02112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10431_T1_AX6_16082022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10399_T4_AX6_22092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10415_T1_AX6_19052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10383_T1_MM_18032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10382_T2_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10378_T1_MM_09032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10430_T2_AX6_03022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10391_T5_MM_18042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10400_T2_AX6_27102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10427_T3_AX6_15062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10426_T5_AX6_03062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10413_T2_AX6_10112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10386_T1_AX6_18032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10429_T2_AX6_05072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10408_T2_AX6_10112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10396_T5_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10393_T4_AX6_17102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10386_T3_AX6_03042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10381_T2_MM_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10396_T3_AX6_31052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10423_T2_AX6_08122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10388_T1_MM_29032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10391_T4_MM_26102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10399_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10416_T3_AX6_26072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10434_T3_AX6_21092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10430_T1_AX6_16082022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10403_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10388_T3_MM_23032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10433_T4_AX6_21032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10391_T1_MM_29032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10400_T3_AX6_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10425_T3_AX6_01082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10380_T2_MM_06092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10390_T1_MM_29032022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10432_T2_MM_24082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10426_T2_AX6_05012023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10433_T1_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10400_T4_AX6_02112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10427_T1_AX6_04072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10415_T4_AX6_21122023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10412_T2_AX6_14112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10379_T3_AX6_03032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10426_T1_AX6_04072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10389_T3_MM_03042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10390_T2_AX6_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10434_T2_AX6_15032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10384_T3_MM_22052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10395_T2_AX6_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10393_T5_AX6_13052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10406_T5_AX6_31052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10410_T1_AX6_03052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10432_T3_MM_26092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10381_T5_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10376_T3_AX6_24022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10429_T3_AX6_01082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10396_T4_AX6_23102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10429_T1_AX6_11072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10385_T4_AX6_01112023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10429_T4_AX6_21122023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10408_T5_AX6_31052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10426_T4_AX6_10012024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10384_T2_MM_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10388_T5_MM_21052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10431_T4_MM_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10377_T1_MM_25022022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10423_T3_AX6_23062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10433_T2_AX6_15032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10419_T1_AX6_08062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10424_T1_AX6_13062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10384_T5_MM_10042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10380_T5_MM_19032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10376_T5_AX6_14032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10378_T3_MM_23032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10381_T4_AX6_17102023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10420_T1_AX6_30052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10389_T4_MM_26092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10431_T3_AX6_22092023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10391_T2_MM_20102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10419_T2_AX6_01122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10435_T1_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10415_T5_AX6_17062024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10395_T1_AX6_13042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10378_T5_AX6_13032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10386_T2_AX6_27092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10416_T1_AX6_27052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS10/10431_T2_AX6_14022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21162_T1_AX6_25072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21149_T3_AX6_05062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21161_T3_AX6_21072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21163_T2_AX6_02022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21163_T1_AX6_25072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21165_T2_AX6_20042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21161_T2_AX6_02022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21162_T2_AX6_01022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21157_T1_AX6_17062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21138_T1_AX6_05042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21138_T3_AX6_20032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21149_T2_AX6_08112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21165_T1_AX6_14092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21161_T1_AX6_25072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21168_T4_AX6_29042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21155_T2_AX6_21122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21159_T3_AX6_26062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21160_T2_AX6_02022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21146_T2_AX6_31102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21160_T3_AX6_04082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21163_T3_AX6_04082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21166_T4_AX6_12032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21159_T1_AX6_20062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21161_T4_AX6_05022024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21149_T5_AX6_13052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21152_T2_AX6_06122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21157_T2_AX6_09012023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21146_T1_AX6_22042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21164_T2_AX6_17012023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21167_T2_AX6_10052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21162_T3_AX6_04082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21138_T2_AX6_22092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21163_T4_AX6_06022024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21166_T1_AX6_12102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21160_T1_AX6_11072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21168_T2_AX6_26042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21159_T2_AX6_21122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21160_T4_AX6_24012024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21155_T1_AX6_01062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21159_T4_AX6_21122023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21167_T1_AX6_02112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21164_T3_AX6_07072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21162_T4_AX6_24012024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21168_T1_AX6_19102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21152_T1_AX6_30052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21164_T4_AX6_24012024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21149_T1_AX6_11052022_acc_gyr_tagged.parquet']
+PID 10409: Total duration 168.00 hours. Picked a 24hr window starting at float 1666096912.0739076
+window length 39, expected length 1000 - window rejected
+PID 10409: Picked random day. Sampled 1500 from 8744 valid windows.
+
+[WARNING] skipping 10381_T3_MM_21032023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10386: Total duration 168.00 hours. Picked a 24hr window starting at float 1695826524.1651032
+window length 511, expected length 1000 - window rejected
+PID 10386: Picked random day. Sampled 1500 from 8511 valid windows.
+PID 10403: Total duration 168.00 hours. Picked a 24hr window starting at float 1696947746.5834296
+window length 678, expected length 1000 - window rejected
+PID 10403: Picked random day. Sampled 1500 from 8522 valid windows.
+PID 10423: Total duration 168.00 hours. Picked a 24hr window starting at float 1701835493.5327094
+window length 346, expected length 1000 - window rejected
+PID 10423: Picked random day. Sampled 1500 from 8530 valid windows.
+PID 10423: Total duration 168.00 hours. Picked a 24hr window starting at float 1653132246.1216953
+window length 166, expected length 1000 - window rejected
+PID 10423: Picked random day. Sampled 1500 from 8544 valid windows.
+PID 10411: Total duration 168.00 hours. Picked a 24hr window starting at float 1650833946.539603
+window length 820, expected length 1000 - window rejected
+PID 10411: Picked random day. Sampled 1500 from 8685 valid windows.
+PID 10412: Total duration 168.00 hours. Picked a 24hr window starting at float 1682634065.6549442
+window length 894, expected length 1000 - window rejected
+PID 10412: Picked random day. Sampled 1500 from 8696 valid windows.
+PID 10416: Total duration 168.00 hours. Picked a 24hr window starting at float 1699742117.0163271
+window length 504, expected length 1000 - window rejected
+PID 10416: Picked random day. Sampled 1500 from 8696 valid windows.
+PID 10419: Total duration 168.00 hours. Picked a 24hr window starting at float 1700246053.827931
+window length 942, expected length 1000 - window rejected
+PID 10419: Picked random day. Sampled 1500 from 8568 valid windows.
+PID 10427: Total duration 168.00 hours. Picked a 24hr window starting at float 1671708935.8348916
+window length 317, expected length 1000 - window rejected
+PID 10427: Picked random day. Sampled 1500 from 8627 valid windows.
+PID 10403: Total duration 168.00 hours. Picked a 24hr window starting at float 1665775442.4615602
+window length 162, expected length 1000 - window rejected
+PID 10403: Picked random day. Sampled 1500 from 8624 valid windows.
+PID 10408: Total duration 168.00 hours. Picked a 24hr window starting at float 1681449107.1486986
+window length 929, expected length 1000 - window rejected
+PID 10408: Picked random day. Sampled 1500 from 8568 valid windows.
+
+[WARNING] skipping 10403_T5_AX6_12062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10425: Total duration 168.00 hours. Picked a 24hr window starting at float 1670986696.1681244
+window length 671, expected length 1000 - window rejected
+PID 10425: Picked random day. Sampled 1500 from 8568 valid windows.
+PID 10398: Total duration 168.00 hours. Picked a 24hr window starting at float 1649049065.3179698
+window length 254, expected length 1000 - window rejected
+PID 10398: Picked random day. Sampled 1500 from 8495 valid windows.
+PID 10396: Total duration 168.00 hours. Picked a 24hr window starting at float 1664782392.7243927
+window length 940, expected length 1000 - window rejected
+PID 10396: Picked random day. Sampled 1500 from 8568 valid windows.
+PID 10409: Total duration 168.00 hours. Picked a 24hr window starting at float 1650108704.0211911
+window length 215, expected length 1000 - window rejected
+PID 10409: Picked random day. Sampled 1500 from 8525 valid windows.
+
+[WARNING] skipping 10395_T5_AX6_31052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10395: Total duration 168.00 hours. Picked a 24hr window starting at float 1695593012.491722
+window length 500, expected length 1000 - window rejected
+PID 10395: Picked random day. Sampled 1500 from 8493 valid windows.
+
+[WARNING] skipping 10379_T5_AX6_17052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+[WARNING] NumPy overflowed on PID nan. Defaulting start_time to min_time.
+PID nan: Total duration nan hours. Picked a 24hr window starting at float nan
+
+[WARNING] skipping 10383_T5_MM_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10390: Total duration 168.00 hours. Picked a 24hr window starting at float 1696341286.3264322
+window length 97, expected length 1000 - window rejected
+PID 10390: Picked random day. Sampled 1500 from 8569 valid windows.
+PID 10380: Total duration 143.23 hours. Picked a 24hr window starting at float 1678286069.203303
+window length 125, expected length 1000 - window rejected
+PID 10380: Picked random day. Sampled 1500 from 9262 valid windows.
+PID 10378: Total duration 168.00 hours. Picked a 24hr window starting at float 1693760384.9155316
+window length 200, expected length 1000 - window rejected
+PID 10378: Picked random day. Sampled 1500 from 9137 valid windows.
+PID 10383: Total duration 150.71 hours. Picked a 24hr window starting at float 1662873007.4547079
+window length 352, expected length 1000 - window rejected
+PID 10383: Picked random day. Sampled 1500 from 9266 valid windows.
+PID 10415: Total duration 168.00 hours. Picked a 24hr window starting at float 1684348063.6540751
+window length 936, expected length 1000 - window rejected
+PID 10415: Picked random day. Sampled 1500 from 8511 valid windows.
+
+[WARNING] skipping 10400_T5_AX6_13052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10409_T5_AX6_10042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10379: Total duration 168.00 hours. Picked a 24hr window starting at float 1694714309.0615435
+window length 603, expected length 1000 - window rejected
+PID 10379: Picked random day. Sampled 1500 from 8722 valid windows.
+PID 10379: Total duration 168.00 hours. Picked a 24hr window starting at float 1662659846.2636483
+window length 518, expected length 1000 - window rejected
+PID 10379: Picked random day. Sampled 1500 from 9285 valid windows.
+PID 10384: Total duration 168.00 hours. Picked a 24hr window starting at float 1693446708.2017841
+window length 131, expected length 1000 - window rejected
+PID 10384: Picked random day. Sampled 1500 from 9262 valid windows.
+
+[WARNING] skipping 10388_T4_MM_07112023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10399_T5_AX6_05062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10399: Total duration 168.00 hours. Picked a 24hr window starting at float 1666010991.6089683
+window length 295, expected length 1000 - window rejected
+PID 10399: Picked random day. Sampled 1500 from 8696 valid windows.
+PID 10424: Total duration 168.00 hours. Picked a 24hr window starting at float 1669089986.4277592
+window length 842, expected length 1000 - window rejected
+PID 10424: Picked random day. Sampled 1500 from 8526 valid windows.
+
+[WARNING] skipping 10383_T4_MM_03112023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10409: Total duration 168.00 hours. Picked a 24hr window starting at float 1695192736.133022
+window length 83, expected length 1000 - window rejected
+PID 10409: Picked random day. Sampled 1500 from 8647 valid windows.
+PID 10382: Total duration 168.00 hours. Picked a 24hr window starting at float 1694876554.4481633
+window length 179, expected length 1000 - window rejected
+PID 10382: Picked random day. Sampled 1500 from 8502 valid windows.
+PID 10413: Total duration 167.00 hours. Picked a 24hr window starting at float 1698514883.2051122
+window length 809, expected length 1000 - window rejected
+PID 10413: Picked random day. Sampled 1500 from 8696 valid windows.
+
+[WARNING] skipping 10413_T5_AX6_17062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10411_T5_AX6_11062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10390: Total duration 168.00 hours. Picked a 24hr window starting at float 1680226482.4924867
+window length 997, expected length 1000 - window rejected
+PID 10390: Picked random day. Sampled 1500 from 8571 valid windows.
+PID 10430: Total duration 168.00 hours. Picked a 24hr window starting at float 1704980247.3350356
+window length 40, expected length 1000 - window rejected
+PID 10430: Picked random day. Sampled 1500 from 8508 valid windows.
+PID 10406: Total duration 168.00 hours. Picked a 24hr window starting at float 1695946151.659756
+window length 852, expected length 1000 - window rejected
+PID 10406: Picked random day. Sampled 1500 from 8639 valid windows.
+PID 10424: Total duration 168.00 hours. Picked a 24hr window starting at float 1700351706.107351
+window length 712, expected length 1000 - window rejected
+PID 10424: Picked random day. Sampled 1500 from 8522 valid windows.
+PID 10376: Total duration 168.00 hours. Picked a 24hr window starting at float 1661037140.6868973
+window length 481, expected length 1000 - window rejected
+PID 10376: Picked random day. Sampled 1500 from 8752 valid windows.
+
+[WARNING] skipping 10434_T4_AX6_15032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10430: Total duration 168.00 hours. Picked a 24hr window starting at float 1689280860.3650172
+window length 166, expected length 1000 - window rejected
+PID 10430: Picked random day. Sampled 1500 from 8512 valid windows.
+PID 10408: Total duration 168.00 hours. Picked a 24hr window starting at float 1650136978.5478253
+window length 909, expected length 1000 - window rejected
+PID 10408: Picked random day. Sampled 1500 from 8543 valid windows.
+
+[WARNING] skipping 10389_T5_MM_10042024_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10379_T1_MM_09032022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10376: Total duration 168.00 hours. Picked a 24hr window starting at float 1693766125.0404613
+window length 185, expected length 1000 - window rejected
+PID 10376: Picked random day. Sampled 1500 from 8530 valid windows.
+
+[WARNING] skipping 10390_T5_AX6_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10413: Total duration 168.00 hours. Picked a 24hr window starting at float 1651326834.8231788
+window length 435, expected length 1000 - window rejected
+PID 10413: Picked random day. Sampled 1500 from 8495 valid windows.
+PID 10413: Total duration 168.00 hours. Picked a 24hr window starting at float 1682779171.1235828
+window length 328, expected length 1000 - window rejected
+PID 10413: Picked random day. Sampled 1500 from 8569 valid windows.
+PID 10400: Total duration 168.00 hours. Picked a 24hr window starting at float 1649404304.3687744
+window length 990, expected length 1000 - window rejected
+PID 10400: Picked random day. Sampled 1500 from 8596 valid windows.
+PID 10408: Total duration 168.00 hours. Picked a 24hr window starting at float 1697376360.1000135
+window length 791, expected length 1000 - window rejected
+PID 10408: Picked random day. Sampled 1500 from 8617 valid windows.
+
+[WARNING] skipping 10386_T5_AX6_10042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10424: Total duration 168.00 hours. Picked a 24hr window starting at float 1686157482.7192552
+window length 533, expected length 1000 - window rejected
+PID 10424: Picked random day. Sampled 1500 from 8696 valid windows.
+PID 10415: Total duration 168.00 hours. Picked a 24hr window starting at float 1668090729.657401
+window length 614, expected length 1000 - window rejected
+PID 10415: Picked random day. Sampled 1500 from 8511 valid windows.
+
+[WARNING] skipping 10380_T4_MM_05092023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10425: Total duration 168.00 hours. Picked a 24hr window starting at float 1706399222.9485106
+window length 733, expected length 1000 - window rejected
+PID 10425: Picked random day. Sampled 1500 from 8529 valid windows.
+
+[WARNING] skipping 10388_T2_MM_20102022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10385_T5_AX6_17052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10396: Total duration 168.00 hours. Picked a 24hr window starting at float 1649030246.4642377
+window length 407, expected length 1000 - window rejected
+PID 10396: Picked random day. Sampled 1500 from 8722 valid windows.
+
+[WARNING] skipping 10427_T5_AX6_11062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10385: Total duration 168.00 hours. Picked a 24hr window starting at float 1678078720.7725582
+window length 879, expected length 1000 - window rejected
+PID 10385: Picked random day. Sampled 1500 from 8568 valid windows.
+PID 10406: Total duration 168.00 hours. Picked a 24hr window starting at float 1649897703.7046313
+window length 48, expected length 1000 - window rejected
+PID 10406: Picked random day. Sampled 1500 from 8753 valid windows.
+PID 10426: Total duration 168.00 hours. Picked a 24hr window starting at float 1687270989.2597551
+window length 133, expected length 1000 - window rejected
+PID 10426: Picked random day. Sampled 1500 from 8624 valid windows.
+PID 10384: Total duration 151.60 hours. Picked a 24hr window starting at float 1646615695.2231824
+window length 398, expected length 1000 - window rejected
+PID 10384: Picked random day. Sampled 1500 from 9164 valid windows.
+
+[WARNING] skipping 10425_T5_AX6_05062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10382: Total duration 168.00 hours. Picked a 24hr window starting at float 1678559213.5043862
+window length 108, expected length 1000 - window rejected
+PID 10382: Picked random day. Sampled 1500 from 8624 valid windows.
+PID 10419: Total duration 168.00 hours. Picked a 24hr window starting at float 1684304088.9558327
+window length 208, expected length 1000 - window rejected
+PID 10419: Picked random day. Sampled 1500 from 8502 valid windows.
+
+[WARNING] skipping 10382_T5_AX6_10042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10382: Total duration 168.00 hours. Picked a 24hr window starting at float 1646533445.849353
+window length 338, expected length 1000 - window rejected
+PID 10382: Picked random day. Sampled 1500 from 8722 valid windows.
+
+[WARNING] skipping 10432_T1_MM_27092022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10380: Total duration 147.13 hours. Picked a 24hr window starting at float 1645535163.9613132
+window length 271, expected length 1000 - window rejected
+PID 10380: Picked random day. Sampled 1500 from 9131 valid windows.
+
+[WARNING] skipping 10381_T1_MM_10032022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10419_T5_AX6_27052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10434: Total duration 168.00 hours. Picked a 24hr window starting at float 1662103525.9524875
+window length 838, expected length 1000 - window rejected
+PID 10434: Picked random day. Sampled 1500 from 8529 valid windows.
+PID 10399: Total duration 168.00 hours. Picked a 24hr window starting at float 1649113742.4272223
+window length 752, expected length 1000 - window rejected
+PID 10399: Picked random day. Sampled 1500 from 8529 valid windows.
+
+[WARNING] skipping 10383_T3_MM_27032023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10385: Total duration 168.00 hours. Picked a 24hr window starting at float 1662596419.04654
+window length 374, expected length 1000 - window rejected
+PID 10385: Picked random day. Sampled 1500 from 8597 valid windows.
+PID 10406: Total duration 168.00 hours. Picked a 24hr window starting at float 1684610611.7072053
+window length 319, expected length 1000 - window rejected
+PID 10406: Picked random day. Sampled 1500 from 8639 valid windows.
+PID 10425: Total duration 168.00 hours. Picked a 24hr window starting at float 1653824601.5754614
+window length 798, expected length 1000 - window rejected
+PID 10425: Picked random day. Sampled 1500 from 8729 valid windows.
+PID 10395: Total duration 169.00 hours. Picked a 24hr window starting at float 1679830852.6764002
+window length 692, expected length 1000 - window rejected
+PID 10395: Picked random day. Sampled 1500 from 8696 valid windows.
+
+[WARNING] skipping 10389_T2_MM_27092022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10393: Total duration 169.00 hours. Picked a 24hr window starting at float 1679633951.2227926
+window length 527, expected length 1000 - window rejected
+PID 10393: Picked random day. Sampled 1500 from 8604 valid windows.
+PID 10391: Total duration 148.04 hours. Picked a 24hr window starting at float 1679413323.6634088
+window length 551, expected length 1000 - window rejected
+PID 10391: Picked random day. Sampled 1500 from 9164 valid windows.
+PID 10385: Total duration 168.00 hours. Picked a 24hr window starting at float 1646576582.916268
+window length 304, expected length 1000 - window rejected
+PID 10385: Picked random day. Sampled 1500 from 8626 valid windows.
+PID 10412: Total duration 168.00 hours. Picked a 24hr window starting at float 1651179705.7937264
+window length 541, expected length 1000 - window rejected
+PID 10412: Picked random day. Sampled 1500 from 8626 valid windows.
+PID 10411: Total duration 167.00 hours. Picked a 24hr window starting at float 1698209394.0281813
+window length 232, expected length 1000 - window rejected
+PID 10411: Picked random day. Sampled 1500 from 8508 valid windows.
+PID 10393: Total duration 169.00 hours. Picked a 24hr window starting at float 1648319644.148456
+window length 775, expected length 1000 - window rejected
+PID 10393: Picked random day. Sampled 1500 from 8707 valid windows.
+PID 10412: Total duration 168.00 hours. Picked a 24hr window starting at float 1697967993.4801502
+window length 167, expected length 1000 - window rejected
+PID 10412: Picked random day. Sampled 1500 from 8569 valid windows.
+PID 10403: Total duration 168.00 hours. Picked a 24hr window starting at float 1649576111.3374264
+window length 593, expected length 1000 - window rejected
+PID 10403: Picked random day. Sampled 1500 from 8511 valid windows.
+PID 10433: Total duration 168.00 hours. Picked a 24hr window starting at float 1693559770.325097
+window length 247, expected length 1000 - window rejected
+PID 10433: Picked random day. Sampled 1500 from 8569 valid windows.
+
+[WARNING] skipping 10376_T1_MM_25022022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10389_T1_MM_29032022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10406: Total duration 168.00 hours. Picked a 24hr window starting at float 1666136939.6399152
+window length 836, expected length 1000 - window rejected
+PID 10406: Picked random day. Sampled 1500 from 8722 valid windows.
+PID 10431: Total duration 168.00 hours. Picked a 24hr window starting at float 1659453677.0072389
+window length 498, expected length 1000 - window rejected
+PID 10431: Picked random day. Sampled 1500 from 8755 valid windows.
+PID 10399: Total duration 168.00 hours. Picked a 24hr window starting at float 1694458412.6123939
+window length 540, expected length 1000 - window rejected
+PID 10399: Picked random day. Sampled 1500 from 8511 valid windows.
+PID 10415: Total duration 168.00 hours. Picked a 24hr window starting at float 1651737775.9465866
+window length 100, expected length 1000 - window rejected
+PID 10415: Picked random day. Sampled 1500 from 8505 valid windows.
+PID 10383: Total duration 168.00 hours. Picked a 24hr window starting at float 1646376217.4791512
+window length 260, expected length 1000 - window rejected
+PID 10383: Picked random day. Sampled 1500 from 9148 valid windows.
+PID 10382: Total duration 168.00 hours. Picked a 24hr window starting at float 1662904727.522091
+window length 954, expected length 1000 - window rejected
+PID 10382: Picked random day. Sampled 1500 from 8543 valid windows.
+
+[WARNING] skipping 10378_T1_MM_09032022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10430: Total duration 168.00 hours. Picked a 24hr window starting at float 1673724024.1649904
+window length 885, expected length 1000 - window rejected
+PID 10430: Picked random day. Sampled 1500 from 8526 valid windows.
+
+[WARNING] skipping 10391_T5_MM_18042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10400: Total duration 168.00 hours. Picked a 24hr window starting at float 1665772515.3153105
+window length 875, expected length 1000 - window rejected
+PID 10400: Picked random day. Sampled 1500 from 8529 valid windows.
+PID 10427: Total duration 168.00 hours. Picked a 24hr window starting at float 1686451622.4436677
+window length 212, expected length 1000 - window rejected
+PID 10427: Picked random day. Sampled 1500 from 8525 valid windows.
+
+[WARNING] skipping 10426_T5_AX6_03062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10413: Total duration 167.00 hours. Picked a 24hr window starting at float 1666656406.3413231
+window length 593, expected length 1000 - window rejected
+PID 10413: Picked random day. Sampled 1500 from 8707 valid windows.
+PID 10386: Total duration 168.00 hours. Picked a 24hr window starting at float 1647175415.8430598
+window length 519, expected length 1000 - window rejected
+PID 10386: Picked random day. Sampled 1500 from 8707 valid windows.
+PID 10429: Total duration 168.00 hours. Picked a 24hr window starting at float 1673467001.7836478
+window length 225, expected length 1000 - window rejected
+PID 10429: Picked random day. Sampled 1500 from 8755 valid windows.
+PID 10408: Total duration 168.00 hours. Picked a 24hr window starting at float 1665935898.4966254
+window length 832, expected length 1000 - window rejected
+PID 10408: Picked random day. Sampled 1500 from 8685 valid windows.
+
+[WARNING] skipping 10396_T5_AX6_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10393: Total duration 168.00 hours. Picked a 24hr window starting at float 1695099776.1026978
+window length 880, expected length 1000 - window rejected
+PID 10393: Picked random day. Sampled 1500 from 8752 valid windows.
+PID 10386: Total duration 168.00 hours. Picked a 24hr window starting at float 1678989206.8014913
+window length 966, expected length 1000 - window rejected
+PID 10386: Picked random day. Sampled 1500 from 8614 valid windows.
+
+[WARNING] skipping 10381_T2_MM_27092022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10396: Total duration 168.00 hours. Picked a 24hr window starting at float 1682420420.5270665
+window length 555, expected length 1000 - window rejected
+PID 10396: Picked random day. Sampled 1500 from 8604 valid windows.
+PID 10423: Total duration 168.00 hours. Picked a 24hr window starting at float 1669482748.194348
+window length 271, expected length 1000 - window rejected
+PID 10423: Picked random day. Sampled 1500 from 8647 valid windows.
+PID 10388: Total duration 168.00 hours. Picked a 24hr window starting at float 1647394371.8199139
+window length 620, expected length 1000 - window rejected
+PID 10388: Picked random day. Sampled 1500 from 9156 valid windows.
+PID 10391: Total duration 168.00 hours. Picked a 24hr window starting at float 1696404117.0794594
+window length 631, expected length 1000 - window rejected
+PID 10391: Picked random day. Sampled 1500 from 9137 valid windows.
+PID 10399: Total duration 168.00 hours. Picked a 24hr window starting at float 1680550239.0386567
+window length 776, expected length 1000 - window rejected
+PID 10399: Picked random day. Sampled 1500 from 8685 valid windows.
+PID 10416: Total data duration (1.00 hours) is less than 24 hours. Using all data.
+window length 600, expected length 1000 - window rejected
+PID 10416: Picked random day. Kept all 354 windows (under 1500).
+PID 10434: Total duration 168.00 hours. Picked a 24hr window starting at float 1693460857.3524394
+window length 198, expected length 1000 - window rejected
+PID 10434: Picked random day. Sampled 1500 from 8505 valid windows.
+PID 10430: Total duration 168.00 hours. Picked a 24hr window starting at float 1658863730.690944
+window length 42, expected length 1000 - window rejected
+PID 10430: Picked random day. Sampled 1500 from 8530 valid windows.
+PID 10403: Total duration 168.00 hours. Picked a 24hr window starting at float 1681824029.96491
+window length 504, expected length 1000 - window rejected
+PID 10403: Picked random day. Sampled 1500 from 8617 valid windows.
+
+[WARNING] skipping 10388_T3_MM_23032023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10433_T4_AX6_21032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10391: Total duration 168.00 hours. Picked a 24hr window starting at float 1648072564.7713335
+window length 797, expected length 1000 - window rejected
+PID 10391: Picked random day. Sampled 1500 from 9261 valid windows.
+PID 10400: Total duration 168.00 hours. Picked a 24hr window starting at float 1680866483.1317954
+window length 715, expected length 1000 - window rejected
+PID 10400: Picked random day. Sampled 1500 from 8522 valid windows.
+PID 10425: Total duration 168.00 hours. Picked a 24hr window starting at float 1685975008.581382
+window length 216, expected length 1000 - window rejected
+PID 10425: Picked random day. Sampled 1500 from 8522 valid windows.
+
+[WARNING] skipping 10380_T2_MM_06092022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10390_T1_MM_29032022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10432_T2_MM_24082023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10426: Total duration 168.00 hours. Picked a 24hr window starting at float 1670669538.700923
+window length 275, expected length 1000 - window rejected
+PID 10426: Picked random day. Sampled 1500 from 8755 valid windows.
+PID 10433: Total duration 168.00 hours. Picked a 24hr window starting at float 1661998272.2219393
+window length 999, expected length 1000 - window rejected
+PID 10433: Picked random day. Sampled 1500 from 8743 valid windows.
+PID 10400: Total duration 168.00 hours. Picked a 24hr window starting at float 1698053681.0086527
+window length 401, expected length 1000 - window rejected
+PID 10400: Picked random day. Sampled 1500 from 8505 valid windows.
+PID 10427: Total duration 168.00 hours. Picked a 24hr window starting at float 1654942219.1752262
+window length 90, expected length 1000 - window rejected
+PID 10427: Picked random day. Sampled 1500 from 8495 valid windows.
+PID 10415: Total duration 168.00 hours. Picked a 24hr window starting at float 1701259723.530947
+window length 594, expected length 1000 - window rejected
+PID 10415: Picked random day. Sampled 1500 from 8511 valid windows.
+PID 10412: Total duration 168.00 hours. Picked a 24hr window starting at float 1665993103.2999418
+window length 876, expected length 1000 - window rejected
+PID 10412: Picked random day. Sampled 1500 from 8543 valid windows.
+PID 10379: Total duration 168.00 hours. Picked a 24hr window starting at float 1676616517.909973
+window length 538, expected length 1000 - window rejected
+PID 10379: Picked random day. Sampled 1500 from 8707 valid windows.
+PID 10426: Total duration 168.00 hours. Picked a 24hr window starting at float 1655133223.9084003
+window length 874, expected length 1000 - window rejected
+PID 10426: Picked random day. Sampled 1500 from 8524 valid windows.
+
+[WARNING] skipping 10389_T3_MM_03042023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10390: Total duration 168.00 hours. Picked a 24hr window starting at float 1664687261.2843037
+window length 332, expected length 1000 - window rejected
+PID 10390: Picked random day. Sampled 1500 from 8502 valid windows.
+PID 10434: Total duration 168.00 hours. Picked a 24hr window starting at float 1677925393.0980082
+window length 554, expected length 1000 - window rejected
+PID 10434: Picked random day. Sampled 1500 from 8617 valid windows.
+PID 10384: Total duration 168.00 hours. Picked a 24hr window starting at float 1680684604.0210333
+window length 989, expected length 1000 - window rejected
+PID 10384: Picked random day. Sampled 1500 from 8799 valid windows.
+PID 10395: Total duration 168.00 hours. Picked a 24hr window starting at float 1664544758.3101141
+window length 827, expected length 1000 - window rejected
+PID 10395: Picked random day. Sampled 1500 from 8568 valid windows.
+
+[WARNING] skipping 10393_T5_AX6_13052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10406_T5_AX6_31052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10410: Total duration 168.00 hours. Picked a 24hr window starting at float 1650691765.7854202
+window length 48, expected length 1000 - window rejected
+PID 10410: Picked random day. Sampled 1500 from 8730 valid windows.
+
+[WARNING] skipping 10432_T3_MM_26092023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10381_T5_AX6_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10376: Total duration 168.00 hours. Picked a 24hr window starting at float 1676328706.551233
+window length 160, expected length 1000 - window rejected
+PID 10376: Picked random day. Sampled 1500 from 8647 valid windows.
+PID 10429: Total duration 168.00 hours. Picked a 24hr window starting at float 1688232559.07137
+window length 845, expected length 1000 - window rejected
+PID 10429: Picked random day. Sampled 1500 from 8743 valid windows.
+PID 10396: Total duration 168.00 hours. Picked a 24hr window starting at float 1696703866.7570064
+window length 385, expected length 1000 - window rejected
+PID 10396: Picked random day. Sampled 1500 from 8696 valid windows.
+PID 10429: Total duration 168.00 hours. Picked a 24hr window starting at float 1655294040.733814
+window length 492, expected length 1000 - window rejected
+PID 10429: Picked random day. Sampled 1500 from 8752 valid windows.
+PID 10385: Total duration 168.00 hours. Picked a 24hr window starting at float 1697301963.8649611
+window length 260, expected length 1000 - window rejected
+PID 10385: Picked random day. Sampled 1500 from 8624 valid windows.
+PID 10429: Total duration 168.00 hours. Picked a 24hr window starting at float 1701210011.6331234
+window length 293, expected length 1000 - window rejected
+PID 10429: Picked random day. Sampled 1500 from 8544 valid windows.
+
+[WARNING] skipping 10408_T5_AX6_31052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10426: Total duration 168.00 hours. Picked a 24hr window starting at float 1701654434.9417372
+window length 987, expected length 1000 - window rejected
+PID 10426: Picked random day. Sampled 1500 from 8568 valid windows.
+
+[WARNING] skipping 10384_T2_MM_27092022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10388_T5_MM_21052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10431_T4_MM_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10377: Total duration 168.00 hours. Picked a 24hr window starting at float 1644959996.8908093
+window length 157, expected length 1000 - window rejected
+PID 10377: Picked random day. Sampled 1500 from 9156 valid windows.
+PID 10423: Total duration 168.00 hours. Picked a 24hr window starting at float 1685379277.7758284
+window length 667, expected length 1000 - window rejected
+PID 10423: Picked random day. Sampled 1500 from 8539 valid windows.
+PID 10433: Total duration 168.00 hours. Picked a 24hr window starting at float 1677955852.5793793
+window length 26, expected length 1000 - window rejected
+PID 10433: Picked random day. Sampled 1500 from 8744 valid windows.
+PID 10419: Total duration 168.00 hours. Picked a 24hr window starting at float 1652314089.6550362
+window length 696, expected length 1000 - window rejected
+PID 10419: Picked random day. Sampled 1500 from 8526 valid windows.
+PID 10424: Total duration 168.00 hours. Picked a 24hr window starting at float 1653720083.276359
+window length 367, expected length 1000 - window rejected
+PID 10424: Picked random day. Sampled 1500 from 8597 valid windows.
+
+[WARNING] skipping 10384_T5_MM_10042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10380_T5_MM_19032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10376_T5_AX6_14032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10378: Total duration 168.00 hours. Picked a 24hr window starting at float 1678583845.5137174
+window length 749, expected length 1000 - window rejected
+PID 10378: Picked random day. Sampled 1500 from 8961 valid windows.
+PID 10381: Total duration 168.00 hours. Picked a 24hr window starting at float 1695194347.359452
+window length 261, expected length 1000 - window rejected
+PID 10381: Picked random day. Sampled 1500 from 8495 valid windows.
+PID 10420: Total duration 168.00 hours. Picked a 24hr window starting at float 1652680520.2733448
+window length 153, expected length 1000 - window rejected
+PID 10420: Picked random day. Sampled 1500 from 8647 valid windows.
+PID 10389: Total duration 168.00 hours. Picked a 24hr window starting at float 1694691765.5573478
+window length 883, expected length 1000 - window rejected
+PID 10389: Picked random day. Sampled 1500 from 9102 valid windows.
+PID 10431: Total duration 168.00 hours. Picked a 24hr window starting at float 1690849917.8302238
+window length 491, expected length 1000 - window rejected
+PID 10431: Picked random day. Sampled 1500 from 8696 valid windows.
+
+[WARNING] skipping 10391_T2_MM_20102022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10419: Total duration 168.00 hours. Picked a 24hr window starting at float 1668971380.902868
+window length 55, expected length 1000 - window rejected
+PID 10419: Picked random day. Sampled 1500 from 8624 valid windows.
+PID 10435: Total duration 168.00 hours. Picked a 24hr window starting at float 1662415823.355595
+window length 498, expected length 1000 - window rejected
+PID 10435: Picked random day. Sampled 1500 from 8696 valid windows.
+
+[WARNING] skipping 10415_T5_AX6_17062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10395: Total duration 169.00 hours. Picked a 24hr window starting at float 1648174009.7678242
+window length 328, expected length 1000 - window rejected
+PID 10395: Picked random day. Sampled 1500 from 8626 valid windows.
+
+[WARNING] skipping 10378_T5_AX6_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10386: Total duration 168.00 hours. Picked a 24hr window starting at float 1663029071.990444
+window length 834, expected length 1000 - window rejected
+PID 10386: Picked random day. Sampled 1500 from 8755 valid windows.
+PID 10416: Total duration 168.00 hours. Picked a 24hr window starting at float 1652466906.0337424
+window length 928, expected length 1000 - window rejected
+PID 10416: Picked random day. Sampled 1500 from 8755 valid windows.
+PID 10431: Total duration 168.00 hours. Picked a 24hr window starting at float 1675070499.8247275
+window length 736, expected length 1000 - window rejected
+PID 10431: Picked random day. Sampled 1500 from 8522 valid windows.
+PID 21162: Total duration 168.00 hours. Picked a 24hr window starting at float 1656500023.4908
+window length 866, expected length 1000 - window rejected
+PID 21162: Picked random day. Sampled 1500 from 8634 valid windows.
+PID 21149: Total duration 168.00 hours. Picked a 24hr window starting at float 1684088806.5847895
+window length 113, expected length 1000 - window rejected
+PID 21149: Picked random day. Sampled 1500 from 8718 valid windows.
+PID 21161: Total duration 168.00 hours. Picked a 24hr window starting at float 1688364964.8406107
+window length 411, expected length 1000 - window rejected
+PID 21161: Picked random day. Sampled 1500 from 8594 valid windows.
+PID 21163: Total duration 168.00 hours. Picked a 24hr window starting at float 1674161531.5861306
+window length 990, expected length 1000 - window rejected
+PID 21163: Picked random day. Sampled 1500 from 8541 valid windows.
+PID 21163: Total duration 168.00 hours. Picked a 24hr window starting at float 1656606718.264123
+window length 702, expected length 1000 - window rejected
+PID 21163: Picked random day. Sampled 1500 from 8530 valid windows.
+PID 21165: Total duration 169.00 hours. Picked a 24hr window starting at float 1679730658.541443
+window length 612, expected length 1000 - window rejected
+PID 21165: Picked random day. Sampled 1500 from 8728 valid windows.
+PID 21161: Total duration 168.00 hours. Picked a 24hr window starting at float 1673896323.6526291
+window length 878, expected length 1000 - window rejected
+PID 21161: Picked random day. Sampled 1500 from 8782 valid windows.
+PID 21162: Total duration 168.00 hours. Picked a 24hr window starting at float 1673856296.4455204
+window length 889, expected length 1000 - window rejected
+PID 21162: Picked random day. Sampled 1500 from 8573 valid windows.
+PID 21157: Total duration 168.00 hours. Picked a 24hr window starting at float 1653398350.013357
+window length 12, expected length 1000 - window rejected
+PID 21157: Picked random day. Sampled 1500 from 8676 valid windows.
+PID 21138: Total duration 169.00 hours. Picked a 24hr window starting at float 1648331001.4527974
+window length 229, expected length 1000 - window rejected
+PID 21138: Picked random day. Sampled 1500 from 8782 valid windows.
+PID 21138: Total data duration (17.43 hours) is less than 24 hours. Using all data.
+window length 960, expected length 1000 - window rejected
+PID 21138: Picked random day. Sampled 1500 from 6293 valid windows.
+PID 21149: Total duration 167.00 hours. Picked a 24hr window starting at float 1666747574.6065955
+window length 702, expected length 1000 - window rejected
+PID 21149: Picked random day. Sampled 1500 from 8665 valid windows.
+PID 21165: Total duration 168.00 hours. Picked a 24hr window starting at float 1661707987.07708
+window length 66, expected length 1000 - window rejected
+PID 21165: Picked random day. Sampled 1500 from 8531 valid windows.
+PID 21161: Total duration 168.00 hours. Picked a 24hr window starting at float 1656351623.3591354
+window length 978, expected length 1000 - window rejected
+PID 21161: Picked random day. Sampled 1500 from 8739 valid windows.
+
+[WARNING] skipping 21168_T4_AX6_29042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21155: Total duration 168.00 hours. Picked a 24hr window starting at float 1669169112.886317
+window length 680, expected length 1000 - window rejected
+PID 21155: Picked random day. Sampled 1500 from 8753 valid windows.
+PID 21159: Total duration 168.00 hours. Picked a 24hr window starting at float 1684740987.6792462
+window length 101, expected length 1000 - window rejected
+PID 21159: Picked random day. Sampled 1500 from 8656 valid windows.
+PID 21160: Total duration 168.00 hours. Picked a 24hr window starting at float 1673579157.9274583
+window length 583, expected length 1000 - window rejected
+PID 21160: Picked random day. Sampled 1500 from 8507 valid windows.
+PID 21146: Total duration 168.00 hours. Picked a 24hr window starting at float 1665542449.9299212
+window length 413, expected length 1000 - window rejected
+PID 21146: Picked random day. Sampled 1500 from 8594 valid windows.
+PID 21160: Total duration 168.00 hours. Picked a 24hr window starting at float 1689364421.6537242
+window length 196, expected length 1000 - window rejected
+PID 21160: Picked random day. Sampled 1500 from 8599 valid windows.
+PID 21163: Total duration 168.00 hours. Picked a 24hr window starting at float 1689699881.1805809
+window length 938, expected length 1000 - window rejected
+PID 21163: Picked random day. Sampled 1500 from 8500 valid windows.
+
+[WARNING] skipping 21166_T4_AX6_12032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21159: Total duration 168.00 hours. Picked a 24hr window starting at float 1654407188.0638704
+window length 468, expected length 1000 - window rejected
+PID 21159: Picked random day. Sampled 1500 from 8599 valid windows.
+
+[WARNING] skipping 21161_T4_AX6_05022024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 21149_T5_AX6_13052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21152: Total duration 168.00 hours. Picked a 24hr window starting at float 1669810369.2853405
+window length 650, expected length 1000 - window rejected
+PID 21152: Picked random day. Sampled 1500 from 8594 valid windows.
+PID 21157: Total duration 57.99 hours. Picked a 24hr window starting at float 1670704371.8645568
+window length 108, expected length 1000 - window rejected
+PID 21157: Picked random day. Sampled 1500 from 8666 valid windows.
+PID 21146: Total duration 168.00 hours. Picked a 24hr window starting at float 1649828072.8858473
+window length 388, expected length 1000 - window rejected
+PID 21146: Picked random day. Sampled 1500 from 8510 valid windows.
+PID 21164: Total duration 168.00 hours. Picked a 24hr window starting at float 1671822531.4685473
+window length 596, expected length 1000 - window rejected
+PID 21164: Picked random day. Sampled 1500 from 8766 valid windows.
+PID 21167: Total duration 168.00 hours. Picked a 24hr window starting at float 1683014024.6882677
+window length 445, expected length 1000 - window rejected
+PID 21167: Picked random day. Sampled 1500 from 8728 valid windows.
+PID 21162: Total duration 168.00 hours. Picked a 24hr window starting at float 1690084199.6273165
+window length 965, expected length 1000 - window rejected
+PID 21162: Picked random day. Sampled 1500 from 8703 valid windows.
+PID 21138: Total duration 168.00 hours. Picked a 24hr window starting at float 1662900434.7292173
+window length 235, expected length 1000 - window rejected
+PID 21138: Picked random day. Sampled 1500 from 8507 valid windows.
+
+[WARNING] skipping 21163_T4_AX6_06022024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21166: Total duration 168.00 hours. Picked a 24hr window starting at float 1663636673.4545588
+window length 111, expected length 1000 - window rejected
+PID 21166: Picked random day. Sampled 1500 from 8718 valid windows.
+PID 21160: Total duration 44.46 hours. Picked a 24hr window starting at float 1655188313.6623764
+window length 823, expected length 1000 - window rejected
+PID 21160: Picked random day. Sampled 1500 from 8541 valid windows.
+PID 21168: Total duration 168.00 hours. Picked a 24hr window starting at float 1681813927.1691992
+window length 314, expected length 1000 - window rejected
+PID 21168: Picked random day. Sampled 1500 from 8594 valid windows.
+PID 21159: Total duration 168.00 hours. Picked a 24hr window starting at float 1670315840.572782
+window length 111, expected length 1000 - window rejected
+PID 21159: Picked random day. Sampled 1500 from 8704 valid windows.
+
+[WARNING] skipping 21160_T4_AX6_24012024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21155: Total duration 168.00 hours. Picked a 24hr window starting at float 1652931355.6235826
+window length 808, expected length 1000 - window rejected
+PID 21155: Picked random day. Sampled 1500 from 8708 valid windows.
+PID 21159: Total duration 168.00 hours. Picked a 24hr window starting at float 1701146576.655882
+window length 60, expected length 1000 - window rejected
+PID 21159: Picked random day. Sampled 1500 from 8704 valid windows.
+PID 21167: Total duration 165.06 hours. Picked a 24hr window starting at float 1664520734.1185305
+window length 562, expected length 1000 - window rejected
+PID 21167: Picked random day. Sampled 1500 from 8782 valid windows.
+PID 21164: Total duration 168.00 hours. Picked a 24hr window starting at float 1687611285.781198
+window length 281, expected length 1000 - window rejected
+PID 21164: Picked random day. Sampled 1500 from 8676 valid windows.
+
+[WARNING] skipping 21162_T4_AX6_24012024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21168: Total duration 168.00 hours. Picked a 24hr window starting at float 1664610724.0290809
+window length 911, expected length 1000 - window rejected
+PID 21168: Picked random day. Sampled 1500 from 8665 valid windows.
+PID 21152: Total duration 168.00 hours. Picked a 24hr window starting at float 1652133450.6438527
+window length 936, expected length 1000 - window rejected
+PID 21152: Picked random day. Sampled 1500 from 8566 valid windows.
+PID 21164: Total duration 168.00 hours. Picked a 24hr window starting at float 1703550932.6556532
+window length 670, expected length 1000 - window rejected
+PID 21164: Picked random day. Sampled 1500 from 8705 valid windows.
+PID 21149: Total duration 168.00 hours. Picked a 24hr window starting at float 1651201610.710978
+window length 68, expected length 1000 - window rejected
+PID 21149: Picked random day. Sampled 1500 from 8510 valid windows.
+
+Dataset successfully created with random-day restrictive sampling!
+Final X shape: (256854, 300, 3)
