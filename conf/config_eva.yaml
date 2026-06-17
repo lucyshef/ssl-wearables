@@ -14,5 +14,5 @@ model_path: /users/acp25lmc/ssl-wearables/data/UKBB/tmp_mdl/
 logging_path: /users/acp25lmc/ssl-wearables/data/UKBB/SSL/evaluations
 report_root: "/users/acp25lmc/ssl-wearables/output/ssw/reports/"
 # report_path: "${report_root}${data.dataset_name}_${evaluation.evaluation_name}_${data.subject_count}.csv"
-report_path: "${report_root}${data.dataset_name}_${evaluation.evaluation_name}_${data.subject_count}_${evaluation.subR}.csv"
+report_path: "${report_root}${data.dataset_name}_${evaluation.evaluation_name}_${data.subject_count}_${evaluation.subR}_${now:%Y-%m-%d_%H-%M-%S}.csv"
 is_verbose: false
