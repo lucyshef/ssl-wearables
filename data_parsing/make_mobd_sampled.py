@@ -23,8 +23,8 @@ TARGET_WINDOW_LEN = int(TARGET_HZ * WINDOW_SEC)
 # DATAFILES = "/Users/catong/repos/video-imu/data/"
 # DATAFILES = DATAFILES + "wisdm/wisdm-dataset/raw/watch/accel/*.txt"
 datafolder = os.path.join("/mnt/parscratch/users/acp25lmc/tagged_data_parquet")
-sites = ["MS10", "MS21"] # ["MS21", "MS10", "MS24", "MS25"]
-OUTDIR = os.path.join("/mnt/parscratch/users/acp25lmc/ssl-data/mobd_sampled")
+sites = ["MS10", "MS21", "MS24"] # ["MS21", "MS10", "MS24", "MS25"]
+OUTDIR = os.path.join("/mnt/parscratch/users/acp25lmc/ssl-data/mobd_sampled_v2")
 num_workers = 4  # update this based on number of cores requested
 
 def resize(X, length, axis=1):
