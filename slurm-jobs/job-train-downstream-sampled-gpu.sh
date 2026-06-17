@@ -14,4 +14,4 @@ module load Anaconda3/2024.02-1
 module load CUDA/12.4.0
 source activate ssl_env
 cd /users/acp25lmc/ssl-wearables/data_parsing
-python /users/acp25lmc/ssl-wearables/downstream_task_evaluation.py "data=mobd_10s_sampled" "evaluation=all" "evaluation.flip_net_path=/users/acp25lmc/ssl-wearables/model_check_point/mtl_best.mdl"
+python -u /users/acp25lmc/ssl-wearables/downstream_task_evaluation.py
