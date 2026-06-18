@@ -5,6 +5,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from sklearn.metrics import confusion_matrix, classification_report as sklearn_report # had to rename as there is already a classification_report here...
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def full_evaluation(y_true, y_pred, report_path):
