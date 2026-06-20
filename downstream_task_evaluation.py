@@ -32,6 +32,10 @@ from datetime import datetime
 import collections
 from hydra.utils import get_original_cwd
 
+# adding this to help with too many files issue... may need to roll this back
+import torch.multiprocessing as mp
+mp.set_sharing_strategy('file_system')
+
 """
 python downstream_task_evaluation.py -m data=rowlands_10s,oppo_10s
 report_root='/home/cxx579/ssw/reports/mtl/aot'
