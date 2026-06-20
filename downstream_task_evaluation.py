@@ -86,10 +86,17 @@ def evaluate_model(model, data_loader, my_device, loss_fn, cfg):
                 true_y = my_Y.to(my_device, dtype=torch.long)
 
             logits = model(my_X)
-            # loss = loss_fn(logits, true_y)
+            # # loss = loss_fn(logits, true_y)
             # loss = loss_fn(logits, true_y.unsqueeze(-1)) # trying to fix tensor shapes - didn't work :(
-            loss = loss_fn(logits, torch.nn.functional.one_hot(true_y))
-            pred_y = torch.argmax(logits, dim=1)
+            # # loss = loss_fn(logits, torch.nn.functional.one_hot(true_y))
+            # pred_y = torch.argmax(logits, dim=1)
+
+            # gemini helped me with this:
+            # 1. Match shapes [500, 1] and convert target to Float
+            loss = loss_fn(logits, true_y.unsqueeze(-1).float())
+
+            # 2. Binary prediction (Threshold at 0 instead of argmax)
+            pred_y = (logits > 0).int().squeeze(-1)  # Shape: [500]
 
             test_acc = torch.sum(pred_y == true_y)
             test_acc = test_acc / (list(pred_y.size())[0])
