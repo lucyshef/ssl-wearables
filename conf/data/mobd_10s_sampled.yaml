@@ -4,7 +4,7 @@ Y_path:  "${data.data_root}/Y.npy"
 PID_path:  "${data.data_root}/pid.npy"
 sample_rate: 30
 task_type: 'classify'
-output_size: 2
+output_size: 1
 batch_size: 500
 held_one_subject_out: false
 weighted_loss_fn: true
