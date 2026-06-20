@@ -5,7 +5,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=96G
-#SBATCH --time=4:00:00
+#SBATCH --time=12:00:00
 #SBATCH --mail-user=lmcheesman1@sheffield.ac.uk
 #SBATCH --mail-type=ALL
 #SBATCH --output=/users/acp25lmc/ssl-wearables/slurm-jobs/logs/%x_%j_%a.log
