@@ -92,11 +92,14 @@ def evaluate_model(model, data_loader, my_device, loss_fn, cfg):
             # pred_y = torch.argmax(logits, dim=1)
 
             # gemini helped me with this:
-            # 1. Match shapes [500, 1] and convert target to Float
-            loss = loss_fn(logits, true_y.unsqueeze(-1).float())
+            # Squeeze the logits from [500, 1] down to [500] to match the target
+            logits_flat = logits.squeeze(-1)  # Shape: [500]
 
-            # 2. Binary prediction (Threshold at 0 instead of argmax)
-            pred_y = (logits > 0).int().squeeze(-1)  # Shape: [500]
+            # Now both are shape [500], but remember BCE still needs the target to be a float!
+            loss = loss_fn(logits_flat, true_y.float())
+
+            # For your predictions, you will also use the squeezed logits:
+            pred_y = (logits_flat > 0).int()  # Shape: [500]
 
             test_acc = torch.sum(pred_y == true_y)
             test_acc = test_acc / (list(pred_y.size())[0])
@@ -210,6 +213,7 @@ def train_mlp(model, train_loader, val_loader, cfg, my_device, weights):
 
     if cfg.data.task_type == "classify":
         if cfg.data.weighted_loss_fn:
+            print("*****USING WEIGHTED LOSS FUNCTION*****")
             weights = torch.FloatTensor(weights).to(my_device)
             # loss_fn = nn.CrossEntropyLoss(weight=weights)
             # want to try BCEWithLogitsLoss
@@ -235,7 +239,15 @@ def train_mlp(model, train_loader, val_loader, cfg, my_device, weights):
                 true_y = my_Y.to(my_device, dtype=torch.long)
 
             logits = model(my_X)
-            loss = loss_fn(logits, true_y)
+            #### UPDATING TRAIN FUNC - with help from gemini
+            # Squeeze the logits from [500, 1] down to [500] to match the target
+            logits_flat = logits.squeeze(-1)  # Shape: [500]
+
+            # Now both are shape [500], but remember BCE still needs the target to be a float!
+            loss = loss_fn(logits_flat, true_y.float())
+
+
+            # loss = loss_fn(logits, true_y)
             loss.backward()
             optimizer.step()
 
