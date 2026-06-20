@@ -189,3 +189,591 @@ Validation loss decreased(inf --> 2.761446)Saving model ...
 [  0/200] train_loss: 1.56076 valid_loss: 2.76145
 Validation loss decreased(2.761446 --> 1.548542)Saving model ...
 [  1/200] train_loss: 1.33526 valid_loss: 1.54854
+EarlyStopping counter: 1 out of 5
+[  2/200] train_loss: 1.31484 valid_loss: 1.61709
+EarlyStopping counter: 2 out of 5
+[  3/200] train_loss: 1.26388 valid_loss: 1.81915
+EarlyStopping counter: 3 out of 5
+[  4/200] train_loss: 1.22885 valid_loss: 2.19535
+EarlyStopping counter: 4 out of 5
+[  5/200] train_loss: 1.20200 valid_loss: 2.89115
+EarlyStopping counter: 5 out of 5
+[  6/200] train_loss: 1.17147 valid_loss: 1.80156
+Early stopping
+Resnet(
+  (feature_extractor): Sequential(
+    (layer1): Sequential(
+      (0): Conv1d(3, 64, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+      (1): ResBlock(
+        (bn1): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (2): ResBlock(
+        (bn1): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (3): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (4): ReLU(inplace=True)
+      (5): Downsample()
+    )
+    (layer2): Sequential(
+      (0): Conv1d(64, 128, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+      (1): ResBlock(
+        (bn1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(128, 128, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(128, 128, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (2): ResBlock(
+        (bn1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(128, 128, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(128, 128, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (3): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (4): ReLU(inplace=True)
+      (5): Downsample()
+    )
+    (layer3): Sequential(
+      (0): Conv1d(128, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+      (1): ResBlock(
+        (bn1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(256, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(256, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (2): ResBlock(
+        (bn1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(256, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(256, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (3): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (4): ReLU(inplace=True)
+      (5): Downsample()
+    )
+    (layer4): Sequential(
+      (0): Conv1d(256, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+      (1): ResBlock(
+        (bn1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (2): ResBlock(
+        (bn1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (3): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (4): ReLU(inplace=True)
+      (5): Downsample()
+    )
+    (layer5): Sequential(
+      (0): Conv1d(512, 1024, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+      (1): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+      (3): Downsample()
+    )
+  )
+  (classifier): EvaClassifier(
+    (linear1): Linear(in_features=1024, out_features=512, bias=True)
+    (linear2): Linear(in_features=512, out_features=1, bias=True)
+  )
+)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:534: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/users/acp25lmc/.conda/envs/ssl_h100/lib/python3.10/site-packages/sklearn/metrics/_classification.py:897: RuntimeWarning: invalid value encountered in scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+Resnet(
+  (feature_extractor): Sequential(
+    (layer1): Sequential(
+      (0): Conv1d(3, 64, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+      (1): ResBlock(
+        (bn1): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (2): ResBlock(
+        (bn1): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(64, 64, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (3): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (4): ReLU(inplace=True)
+      (5): Downsample()
+    )
+    (layer2): Sequential(
+      (0): Conv1d(64, 128, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+      (1): ResBlock(
+        (bn1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(128, 128, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(128, 128, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (2): ResBlock(
+        (bn1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(128, 128, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(128, 128, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (3): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (4): ReLU(inplace=True)
+      (5): Downsample()
+    )
+    (layer3): Sequential(
+      (0): Conv1d(128, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+      (1): ResBlock(
+        (bn1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(256, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(256, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (2): ResBlock(
+        (bn1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(256, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(256, 256, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (3): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (4): ReLU(inplace=True)
+      (5): Downsample()
+    )
+    (layer4): Sequential(
+      (0): Conv1d(256, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+      (1): ResBlock(
+        (bn1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (2): ResBlock(
+        (bn1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (bn2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (conv1): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (conv2): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+        (relu): ReLU(inplace=True)
+      )
+      (3): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (4): ReLU(inplace=True)
+      (5): Downsample()
+    )
+    (layer5): Sequential(
+      (0): Conv1d(512, 1024, kernel_size=(5,), stride=(1,), padding=(2,), bias=False, padding_mode=circular)
+      (1): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+      (3): Downsample()
+    )
+  )
+  (classifier): EvaClassifier(
+    (linear1): Linear(in_features=1024, out_features=512, bias=True)
+    (linear2): Linear(in_features=512, out_features=1, bias=True)
+  )
+)
+Loading weights from /users/acp25lmc/ssl-wearables/model_check_point/mtl_best.mdl
+131 Weights loaded
+train set sample count : 1899003
+val set sample count : 276354
+test set sample count : 546235
+slurmstepd: error: *** JOB 10448131 ON gpu31 CANCELLED AT 2026-06-20T14:51:37 ***
+Weight tensor: 
+[1.1436311768181087, 7.962276729559749]
+*****USING WEIGHTED LOSS FUNCTION*****
