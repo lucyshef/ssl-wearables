@@ -87,7 +87,8 @@ def evaluate_model(model, data_loader, my_device, loss_fn, cfg):
 
             logits = model(my_X)
             # loss = loss_fn(logits, true_y)
-            loss = loss_fn(logits, true_y.unsqueeze(-1)) # trying to fix tensor shapes
+            # loss = loss_fn(logits, true_y.unsqueeze(-1)) # trying to fix tensor shapes - didn't work :(
+            loss = loss_fn(logits, torch.nn.functional.one_hot(true_y))
             pred_y = torch.argmax(logits, dim=1)
 
             test_acc = torch.sum(pred_y == true_y)
