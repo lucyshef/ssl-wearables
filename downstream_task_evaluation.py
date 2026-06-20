@@ -253,7 +253,8 @@ def train_mlp(model, train_loader, val_loader, cfg, my_device, weights):
 
             optimizer.zero_grad()
 
-            pred_y = torch.argmax(logits, dim=1)
+            # pred_y = torch.argmax(logits, dim=1)
+            pred_y = (logits > 0).int()
             train_acc = torch.sum(pred_y == true_y)
             train_acc = train_acc / (pred_y.size()[0])
 
@@ -293,8 +294,8 @@ def mlp_predict(model, data_loader, my_device, cfg):
             else:
                 true_y = my_Y.to(my_device, dtype=torch.long)
                 logits = model(my_X)
-                pred_y = torch.argmax(logits, dim=1)
-
+                # pred_y = torch.argmax(logits, dim=1)
+                pred_y = (logits > 0).int()
             true_list.append(true_y.cpu())
             predictions_list.append(pred_y.cpu())
             pid_list.extend(my_PID)
