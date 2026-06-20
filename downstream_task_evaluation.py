@@ -203,7 +203,9 @@ def train_mlp(model, train_loader, val_loader, cfg, my_device, weights):
     if cfg.data.task_type == "classify":
         if cfg.data.weighted_loss_fn:
             weights = torch.FloatTensor(weights).to(my_device)
-            loss_fn = nn.CrossEntropyLoss(weight=weights)
+            # loss_fn = nn.CrossEntropyLoss(weight=weights)
+            # want to try BCEWithLogitsLoss
+            loss_fn = nn.BCEWithLogitsLoss(pos_weight=weights[1])
         else:
             loss_fn = nn.CrossEntropyLoss()
     else:
