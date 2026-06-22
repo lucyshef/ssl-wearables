@@ -24,8 +24,9 @@ TARGET_WINDOW_LEN = int(TARGET_HZ * WINDOW_SEC)
 # DATAFILES = DATAFILES + "wisdm/wisdm-dataset/raw/watch/accel/*.txt"
 datafolder = os.path.join("/mnt/parscratch/users/acp25lmc/tagged_data_parquet")
 sites = ["MS10", "MS21", "MS24", "MS25"] # ["MS21", "MS10", "MS24", "MS25"]
-OUTDIR = os.path.join("/mnt/parscratch/users/acp25lmc/ssl-data/mobd_sampled_v2")
+OUTDIR = os.path.join("/mnt/parscratch/users/acp25lmc/ssl-data/mobd_sampled_v3")
 num_workers = 4  # update this based on number of cores requested
+max_windows_per_person=100
 
 def resize(X, length, axis=1):
     """Resize the temporal length using linear interpolation.
@@ -252,4 +253,6 @@ if __name__ == "__main__":
                     window_step_len=WINDOW_STEP_LEN,
                     window_len=WINDOW_LEN,
                     target_window_len=TARGET_WINDOW_LEN,
-                    outdir=OUTDIR)
+                    outdir=OUTDIR,
+                    max_windows_per_person=max_windows_per_person
+                    )
