@@ -11,4 +11,4 @@ export SLURM_EXPORT_ENV=ALL
 module load Anaconda3/2024.02-1
 source activate ssl_env
 cd /users/acp25lmc/ssl-wearables/data_parsing
-python -u /users/acp25lmc/ssl-wearables/downstream_task_evaluation.py
+python -u /users/acp25lmc/ssl-wearables/downstream_task_evaluation_cpu.py
