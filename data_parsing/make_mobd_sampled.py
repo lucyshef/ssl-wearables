@@ -19,8 +19,9 @@ WINDOW_TOL = 0.01  # 1%
 TARGET_HZ = 30  # Hz
 # TARGET_HZ = 100 # Hz
 TARGET_WINDOW_LEN = int(TARGET_HZ * WINDOW_SEC)
-IMU_DURATION = "24hr"
-# IMU_DURATION = "7d"
+SUBSAMPLE_DURATION = 24
+# SUBSAMPLE_DURATION = (24 * 7)
+MAX_WINDOWS=500
 
 
 # DATAFILES = "/Users/catong/repos/video-imu/data/"
@@ -28,8 +29,7 @@ IMU_DURATION = "24hr"
 datafolder = os.path.join("/mnt/parscratch/users/acp25lmc/tagged_data_parquet")
 sites = ["MS10", "MS21", "MS24", "MS25"] # ["MS21", "MS10", "MS24", "MS25"]
 num_workers = 4  # update this based on number of cores requested
-MAX_WINDOWS=500
-OUTDIR = os.path.join("/mnt", "parscratch", "users", "acp25lmc", "ssl-data", f"mobd_sampled_{IMU_DURATION}_{MAX_WINDOWS}_{TARGET_WINDOW_LEN}hz_{WINDOW_SEC}s")
+OUTDIR = os.path.join("/mnt", "parscratch", "users", "acp25lmc", "ssl-data", f"mobd_sampled_{SUBSAMPLE_DURATION}hr_{MAX_WINDOWS}_{TARGET_WINDOW_LEN}hz_{WINDOW_SEC}s")
 
 def resize(X, length, axis=1):
     """Resize the temporal length using linear interpolation.
@@ -65,7 +65,7 @@ def is_good_quality(w):
 def process_windows_sampled(file_list, window_step_len, window_len, target_window_len, outdir, hours=24, max_windows_per_person=1500):
     """
     Function to selectively sample from 7 days of IMU data following ssl-wearables methodology
-    (choose one 24 hour period and randomly sample 1500 windows from that period)
+    (choose one sub period and randomly sample 1500 windows from that period)
     """
     os.makedirs(outdir, exist_ok=True)
 
@@ -108,15 +108,15 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
         seconds_in_a_sample = hours * 60 * 60
         total_duration_seconds = max_time - min_time
 
-        # # lastest possible start must be 24 hours before end of file
+        # # lastest possible start must be correct number of hours before end of file
         # latest_possible_start = max_time - pd.Timedelta(days=days)
         #
         if total_duration_seconds <= seconds_in_a_sample:
-            # If the person has less than 24 hours of total data, take whatever they have
-            day_data = one_person_data
+            # If the person has less than set number of hours of total data, take whatever they have
+            sampled_data = one_person_data
             print(f"PID {pid}: Total data duration ({total_duration_seconds / 3600:.2f} hours) is less than {hours} hours. Using all data.")
         else:
-            # Calculate the latest possible float value where a 24-hr window could start
+            # Calculate the latest possible float value where the correct size window could start
             latest_possible_start = max_time - seconds_in_a_sample
 
             try:
@@ -131,8 +131,8 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
 
             end_time = start_time + seconds_in_a_sample
 
-            # Slice the 24-hour window using the floats
-            day_data = one_person_data[
+            # Slice the window using the floats
+            sampled_data = one_person_data[
                 (one_person_data['time_acc'] >= start_time) & (one_person_data['time_acc'] < end_time)]
             print(
                 f"PID {pid}: Total duration {total_duration_seconds / 3600:.2f} hours. Picked a {hours}hr window starting at float {start_time}")
@@ -143,9 +143,9 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
         P_person = []
         SD_person = [] # we don't need this for our final dataset but it for keeping track of SDs to weight the sample
 
-        # 2. Extract valid windows from this specific 24 hours
-        for i in range(0, len(day_data), window_step_len):
-            w = day_data.iloc[i: i + window_len]
+        # 2. Extract valid windows from this specific sample
+        for i in range(0, len(sampled_data), window_step_len):
+            w = sampled_data.iloc[i: i + window_len]
 
             if not is_good_quality(w):
                 continue
@@ -257,5 +257,6 @@ if __name__ == "__main__":
                     window_len=WINDOW_LEN,
                     target_window_len=TARGET_WINDOW_LEN,
                     outdir=OUTDIR,
-                    max_windows_per_person=MAX_WINDOWS
+                    max_windows_per_person=MAX_WINDOWS,
+                    hours=SUBSAMPLE_DURATION
                     )
