@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=MAKE_MOBD_SAMPLED
 #SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=512000
+#SBATCH --mem-per-cpu=1024000
 #SBATCH --time=24:00:00
 #SBATCH --mail-user=lmcheesman1@sheffield.ac.uk
 #SBATCH --mail-type=ALL
