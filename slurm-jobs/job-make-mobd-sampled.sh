@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=MAKE_MOBD_SAMPLED
 #SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=256G
-#SBATCH --time=24:00:00
+#SBATCH --mem-per-cpu=1300G
+#SBATCH --time=48:00:00
 #SBATCH --mail-user=lmcheesman1@sheffield.ac.uk
 #SBATCH --mail-type=ALL
 #SBATCH --output=/users/acp25lmc/ssl-wearables/slurm-jobs/logs/%x_%j_%a.log
