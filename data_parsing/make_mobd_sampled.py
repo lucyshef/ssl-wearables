@@ -16,12 +16,12 @@ WINDOW_LEN = int(DEVICE_HZ * WINDOW_SEC)  # device ticks
 WINDOW_OVERLAP_LEN = int(DEVICE_HZ * WINDOW_OVERLAP_SEC)  # device ticks
 WINDOW_STEP_LEN = WINDOW_LEN - WINDOW_OVERLAP_LEN  # device ticks
 WINDOW_TOL = 0.01  # 1%
-TARGET_HZ = 30  # Hz
+TARGET_HZ = 100  # Hz
 # TARGET_HZ = 100 # Hz
 TARGET_WINDOW_LEN = int(TARGET_HZ * WINDOW_SEC)
 SUBSAMPLE_DURATION = 24
 # SUBSAMPLE_DURATION = (24 * 7)
-MAX_WINDOWS=500
+MAX_WINDOWS=1500
 
 
 # DATAFILES = "/Users/catong/repos/video-imu/data/"
@@ -245,6 +245,7 @@ def locate_sensor_data(root_folder, suffix: str=".csv.gz", tag_search: bool=Fals
 
 
 if __name__ == "__main__":
+    print(f"output directory: {OUTDIR}")
     file_list = []
     for site in sites:
         site_folder = os.path.join(datafolder, site)
