@@ -29,7 +29,7 @@ MAX_WINDOWS=100
 datafolder = os.path.join("/mnt/parscratch/users/acp25lmc/tagged_data_parquet")
 sites = ["MS10", "MS21", "MS24", "MS25"] # ["MS21", "MS10", "MS24", "MS25"]
 num_workers = 4  # update this based on number of cores requested
-OUTDIR = os.path.join("/mnt", "parscratch", "users", "acp25lmc", "ssl-data", f"mobd_sampled_{SUBSAMPLE_DURATION}hr_{MAX_WINDOWS}_{TARGET_WINDOW_LEN}hz_{WINDOW_SEC}s")
+OUTDIR = os.path.join("/mnt", "parscratch", "users", "acp25lmc", "ssl-data", f"mobd_sampled_{SUBSAMPLE_DURATION}hr_{MAX_WINDOWS}_{TARGET_HZ}hz_{WINDOW_SEC}s")
 
 def resize(X, length, axis=1):
     """Resize the temporal length using linear interpolation.
