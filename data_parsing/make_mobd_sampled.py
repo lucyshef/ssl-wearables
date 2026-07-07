@@ -17,16 +17,19 @@ WINDOW_OVERLAP_LEN = int(DEVICE_HZ * WINDOW_OVERLAP_SEC)  # device ticks
 WINDOW_STEP_LEN = WINDOW_LEN - WINDOW_OVERLAP_LEN  # device ticks
 WINDOW_TOL = 0.01  # 1%
 TARGET_HZ = 30  # Hz
+# TARGET_HZ = 100 # Hz
 TARGET_WINDOW_LEN = int(TARGET_HZ * WINDOW_SEC)
+IMU_DURATION = "24hr"
+# IMU_DURATION = "7d"
 
 
 # DATAFILES = "/Users/catong/repos/video-imu/data/"
 # DATAFILES = DATAFILES + "wisdm/wisdm-dataset/raw/watch/accel/*.txt"
 datafolder = os.path.join("/mnt/parscratch/users/acp25lmc/tagged_data_parquet")
 sites = ["MS10", "MS21", "MS24", "MS25"] # ["MS21", "MS10", "MS24", "MS25"]
-OUTDIR = os.path.join("/mnt/parscratch/users/acp25lmc/ssl-data/mobd_sampled_v3")
 num_workers = 4  # update this based on number of cores requested
-max_windows_per_person=100
+MAX_WINDOWS=500
+OUTDIR = os.path.join("/mnt", "parscratch", "users", "acp25lmc", "ssl-data", f"mobd_sampled_{IMU_DURATION}_{MAX_WINDOWS}_{TARGET_WINDOW_LEN}hz_{WINDOW_SEC}s")
 
 def resize(X, length, axis=1):
     """Resize the temporal length using linear interpolation.
@@ -254,5 +257,5 @@ if __name__ == "__main__":
                     window_len=WINDOW_LEN,
                     target_window_len=TARGET_WINDOW_LEN,
                     outdir=OUTDIR,
-                    max_windows_per_person=max_windows_per_person
+                    max_windows_per_person=MAX_WINDOWS
                     )
