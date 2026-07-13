@@ -17,3 +17,7 @@ PID 10409: Picked random day. Sampled 500 from 204025 valid windows.
 
 [WARNING] skipping 10381_T3_MM_21032023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
 PID 10386: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 180, expected length 300 - window rejected
+PID 10386: Picked random day. Sampled 500 from 198555 valid windows.
+PID 10403: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+slurmstepd: error: *** JOB 10812844 ON node308 CANCELLED AT 2026-07-13T11:53:19 ***

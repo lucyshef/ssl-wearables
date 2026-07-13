@@ -35,3 +35,170 @@ PID 10412: Total data duration (168.00 hours) is less than 168 hours. Using all 
 window length 560, expected length 1000 - window rejected
 PID 10412: Picked random day. Sampled 100 from 60877 valid windows.
 PID 10416: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 280, expected length 1000 - window rejected
+PID 10416: Picked random day. Sampled 100 from 60875 valid windows.
+PID 10419: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 960, expected length 1000 - window rejected
+PID 10419: Picked random day. Sampled 100 from 59981 valid windows.
+PID 10427: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 600, expected length 1000 - window rejected
+PID 10427: Picked random day. Sampled 100 from 60390 valid windows.
+PID 10403: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 960, expected length 1000 - window rejected
+PID 10403: Picked random day. Sampled 100 from 60368 valid windows.
+PID 10408: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 400, expected length 1000 - window rejected
+PID 10408: Picked random day. Sampled 100 from 59981 valid windows.
+
+[WARNING] skipping 10403_T5_AX6_12062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10425: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 800, expected length 1000 - window rejected
+PID 10425: Picked random day. Sampled 100 from 59980 valid windows.
+PID 10398: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 200, expected length 1000 - window rejected
+PID 10398: Picked random day. Sampled 100 from 59466 valid windows.
+PID 10396: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 120, expected length 1000 - window rejected
+PID 10396: Picked random day. Sampled 100 from 59982 valid windows.
+PID 10409: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 120, expected length 1000 - window rejected
+PID 10409: Picked random day. Sampled 100 from 59674 valid windows.
+
+[WARNING] skipping 10395_T5_AX6_31052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10395: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 280, expected length 1000 - window rejected
+PID 10395: Picked random day. Sampled 100 from 59454 valid windows.
+
+[WARNING] skipping 10379_T5_AX6_17052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+[WARNING] NumPy overflowed on PID nan. Defaulting start_time to min_time.
+PID nan: Total duration nan hours. Picked a 168hr window starting at float nan
+
+[WARNING] skipping 10383_T5_MM_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10390: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 200, expected length 1000 - window rejected
+PID 10390: Picked random day. Sampled 100 from 59983 valid windows.
+PID 10380: Total data duration (143.23 hours) is less than 168 hours. Using all data.
+window length 552, expected length 1000 - window rejected
+PID 10380: Picked random day. Sampled 100 from 55276 valid windows.
+PID 10378: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 10, expected length 1000 - window rejected
+PID 10378: Picked random day. Sampled 100 from 63961 valid windows.
+PID 10383: Total data duration (150.71 hours) is less than 168 hours. Using all data.
+window length 118, expected length 1000 - window rejected
+PID 10383: Picked random day. Sampled 100 from 58189 valid windows.
+PID 10415: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 240, expected length 1000 - window rejected
+PID 10415: Picked random day. Sampled 100 from 59585 valid windows.
+
+[WARNING] skipping 10400_T5_AX6_13052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10409_T5_AX6_10042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10379: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 800, expected length 1000 - window rejected
+PID 10379: Picked random day. Sampled 100 from 61057 valid windows.
+PID 10379: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 906, expected length 1000 - window rejected
+PID 10379: Picked random day. Sampled 100 from 64988 valid windows.
+PID 10384: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 875, expected length 1000 - window rejected
+PID 10384: Picked random day. Sampled 100 from 64833 valid windows.
+
+[WARNING] skipping 10388_T4_MM_07112023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10399_T5_AX6_05062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10399: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 960, expected length 1000 - window rejected
+PID 10399: Picked random day. Sampled 100 from 60873 valid windows.
+PID 10424: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 40, expected length 1000 - window rejected
+PID 10424: Picked random day. Sampled 100 from 59688 valid windows.
+
+[WARNING] skipping 10383_T4_MM_03112023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10409: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 600, expected length 1000 - window rejected
+PID 10409: Picked random day. Sampled 100 from 60530 valid windows.
+PID 10382: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 560, expected length 1000 - window rejected
+PID 10382: Picked random day. Sampled 100 from 59515 valid windows.
+PID 10413: Total data duration (167.00 hours) is less than 168 hours. Using all data.
+window length 560, expected length 1000 - window rejected
+PID 10413: Picked random day. Sampled 100 from 60513 valid windows.
+
+[WARNING] skipping 10413_T5_AX6_17062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 10411_T5_AX6_11062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10390: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+PID 10390: Picked random day. Sampled 100 from 59986 valid windows.
+PID 10430: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 440, expected length 1000 - window rejected
+PID 10430: Picked random day. Sampled 100 from 59557 valid windows.
+PID 10406: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 960, expected length 1000 - window rejected
+PID 10406: Picked random day. Sampled 100 from 60478 valid windows.
+PID 10424: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 40, expected length 1000 - window rejected
+PID 10424: Picked random day. Sampled 100 from 59659 valid windows.
+PID 10376: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 760, expected length 1000 - window rejected
+PID 10376: Picked random day. Sampled 100 from 61267 valid windows.
+
+[WARNING] skipping 10434_T4_AX6_15032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10430: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 120, expected length 1000 - window rejected
+PID 10430: Picked random day. Sampled 100 from 59581 valid windows.
+PID 10408: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 320, expected length 1000 - window rejected
+PID 10408: Picked random day. Sampled 100 from 59806 valid windows.
+
+[WARNING] skipping 10389_T5_MM_10042024_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10379_T1_MM_09032022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10376: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 920, expected length 1000 - window rejected
+PID 10376: Picked random day. Sampled 100 from 59710 valid windows.
+
+[WARNING] skipping 10390_T5_AX6_13032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10413: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 240, expected length 1000 - window rejected
+PID 10413: Picked random day. Sampled 100 from 59466 valid windows.
+PID 10413: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 600, expected length 1000 - window rejected
+PID 10413: Picked random day. Sampled 100 from 59987 valid windows.
+PID 10400: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 280, expected length 1000 - window rejected
+PID 10400: Picked random day. Sampled 100 from 60179 valid windows.
+PID 10408: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 320, expected length 1000 - window rejected
+PID 10408: Picked random day. Sampled 100 from 60324 valid windows.
+
+[WARNING] skipping 10386_T5_AX6_10042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10424: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 240, expected length 1000 - window rejected
+PID 10424: Picked random day. Sampled 100 from 60875 valid windows.
+PID 10415: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 840, expected length 1000 - window rejected
+PID 10415: Picked random day. Sampled 100 from 59580 valid windows.
+
+[WARNING] skipping 10380_T4_MM_05092023_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+PID 10425: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 600, expected length 1000 - window rejected
+PID 10425: Picked random day. Sampled 100 from 59707 valid windows.
+
+[WARNING] skipping 10388_T2_MM_20102022_acc_gyr_tagged.parquet: File contains NaN values in 'time_acc'.
+
+[WARNING] skipping 10385_T5_AX6_17052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10396: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 80, expected length 1000 - window rejected
+PID 10396: Picked random day. Sampled 100 from 61057 valid windows.
+
+[WARNING] skipping 10427_T5_AX6_11062024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 10385: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 80, expected length 1000 - window rejected
+PID 10385: Picked random day. Sampled 100 from 59983 valid windows.
+PID 10406: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 40, expected length 1000 - window rejected
+PID 10406: Picked random day. Sampled 100 from 61269 valid windows.
+PID 10426: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 400, expected length 1000 - window rejected
+PID 10426: Picked random day. Sampled 100 from 60368 valid windows.
+PID 10384: Total data duration (151.60 hours) is less than 168 hours. Using all data.
