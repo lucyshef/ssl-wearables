@@ -9,19 +9,19 @@ from functools import partial
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from scipy.interpolate import interp1d
 
-DEVICE_HZ = 30  # Hz
+DEVICE_HZ = 100  # Hz
 WINDOW_SEC = 10  # seconds
 WINDOW_OVERLAP_SEC = 0  # i'm doing no overlap as I probably don't really care about activity boundaries
 WINDOW_LEN = int(DEVICE_HZ * WINDOW_SEC)  # device ticks
 WINDOW_OVERLAP_LEN = int(DEVICE_HZ * WINDOW_OVERLAP_SEC)  # device ticks
 WINDOW_STEP_LEN = WINDOW_LEN - WINDOW_OVERLAP_LEN  # device ticks
 WINDOW_TOL = 0.01  # 1%
-TARGET_HZ = 100  # Hz
+TARGET_HZ = 30  # Hz
 # TARGET_HZ = 100 # Hz
 TARGET_WINDOW_LEN = int(TARGET_HZ * WINDOW_SEC)
 # SUBSAMPLE_DURATION = 24
 SUBSAMPLE_DURATION = (24 * 7)
-MAX_WINDOWS=500
+MAX_WINDOWS=100
 
 
 # DATAFILES = "/Users/catong/repos/video-imu/data/"
