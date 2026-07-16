@@ -1,0 +1,2 @@
+/var/spool/slurmd/slurmd.spool/job10898471/slurm_script: line 13: cd: /users/acp25lmc/ssl-wearables/data-parsing: No such file or directory
+python: can't open file 'make_mobd_six_channel.py': [Errno 2] No such file or directory
