@@ -74,7 +74,7 @@ def process_windows_sampled(file_list, window_step_len, window_len, target_windo
     T_all = []
     P_all = []
 
-    columns = ["time_acc", "acc_x", "acc_y", "acc_z", "timestamp", "p_id", "timestamp_plus_one_nep"]
+    columns = ["time_acc", "acc_x", "acc_y", "acc_z", "gyr_x", "gyr_y", "gyr_z", "timestamp", "p_id", "timestamp_plus_one_nep"]
 
     for datafile in file_list:
         try:
