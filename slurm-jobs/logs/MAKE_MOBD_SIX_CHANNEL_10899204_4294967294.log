@@ -1,0 +1,141 @@
+output directory: /mnt/parscratch/users/acp25lmc/ssl-data/mobd_six_channel_24hr_100_30hz_10s
+scanning for files
+47 files found
+['/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21162_T1_AX6_25072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21149_T3_AX6_05062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21161_T3_AX6_21072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21163_T2_AX6_02022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21163_T1_AX6_25072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21165_T2_AX6_20042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21161_T2_AX6_02022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21162_T2_AX6_01022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21157_T1_AX6_17062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21138_T1_AX6_05042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21138_T3_AX6_20032023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21149_T2_AX6_08112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21165_T1_AX6_14092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21161_T1_AX6_25072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21168_T4_AX6_29042024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21155_T2_AX6_21122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21159_T3_AX6_26062023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21160_T2_AX6_02022023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21146_T2_AX6_31102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21160_T3_AX6_04082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21163_T3_AX6_04082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21166_T4_AX6_12032024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21159_T1_AX6_20062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21161_T4_AX6_05022024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21149_T5_AX6_13052024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21152_T2_AX6_06122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21157_T2_AX6_09012023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21146_T1_AX6_22042022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21164_T2_AX6_17012023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21167_T2_AX6_10052023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21162_T3_AX6_04082023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21138_T2_AX6_22092022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21163_T4_AX6_06022024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21166_T1_AX6_12102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21160_T1_AX6_11072022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21168_T2_AX6_26042023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21159_T2_AX6_21122022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21160_T4_AX6_24012024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21155_T1_AX6_01062022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21159_T4_AX6_21122023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21167_T1_AX6_02112022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21164_T3_AX6_07072023_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21162_T4_AX6_24012024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21168_T1_AX6_19102022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21152_T1_AX6_30052022_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21164_T4_AX6_24012024_acc_gyr_tagged.parquet', '/mnt/parscratch/users/acp25lmc/tagged_data_parquet/MS21/21149_T1_AX6_11052022_acc_gyr_tagged.parquet']
+PID 21162: Total duration 168.00 hours. Picked a 24hr window starting at float 1656368454.905716
+window length 819, expected length 1000 - window rejected
+PID 21162: Picked random day. Sampled 100 from 8634 valid windows.
+PID 21149: Total duration 168.00 hours. Picked a 24hr window starting at float 1684134766.5405731
+window length 191, expected length 1000 - window rejected
+PID 21149: Picked random day. Sampled 100 from 8718 valid windows.
+PID 21161: Total duration 168.00 hours. Picked a 24hr window starting at float 1688488635.1863494
+window length 504, expected length 1000 - window rejected
+PID 21161: Picked random day. Sampled 100 from 8594 valid windows.
+PID 21163: Total duration 168.00 hours. Picked a 24hr window starting at float 1674378051.5109968
+window length 56, expected length 1000 - window rejected
+PID 21163: Picked random day. Sampled 100 from 8542 valid windows.
+PID 21163: Total duration 168.00 hours. Picked a 24hr window starting at float 1656678024.4505312
+window length 620, expected length 1000 - window rejected
+PID 21163: Picked random day. Sampled 100 from 8530 valid windows.
+PID 21165: Total duration 169.00 hours. Picked a 24hr window starting at float 1679429003.5782
+window length 566, expected length 1000 - window rejected
+PID 21165: Picked random day. Sampled 100 from 8728 valid windows.
+PID 21161: Total duration 168.00 hours. Picked a 24hr window starting at float 1673747453.2919412
+window length 680, expected length 1000 - window rejected
+PID 21161: Picked random day. Sampled 100 from 8782 valid windows.
+PID 21162: Total duration 168.00 hours. Picked a 24hr window starting at float 1673703632.6021428
+window length 843, expected length 1000 - window rejected
+PID 21162: Picked random day. Sampled 100 from 8573 valid windows.
+PID 21157: Total duration 168.00 hours. Picked a 24hr window starting at float 1653298115.752976
+window length 72, expected length 1000 - window rejected
+PID 21157: Picked random day. Sampled 100 from 8676 valid windows.
+PID 21138: Total duration 169.00 hours. Picked a 24hr window starting at float 1648307884.0684524
+window length 251, expected length 1000 - window rejected
+PID 21138: Picked random day. Sampled 100 from 8782 valid windows.
+PID 21138: Total data duration (17.43 hours) is less than 24 hours. Using all data.
+window length 960, expected length 1000 - window rejected
+PID 21138: Picked random day. Sampled 100 from 6293 valid windows.
+PID 21149: Total duration 167.00 hours. Picked a 24hr window starting at float 1667102831.7197049
+window length 903, expected length 1000 - window rejected
+PID 21149: Picked random day. Sampled 100 from 8665 valid windows.
+PID 21165: Total duration 168.00 hours. Picked a 24hr window starting at float 1661383122.2951286
+window length 66, expected length 1000 - window rejected
+PID 21165: Picked random day. Sampled 100 from 8531 valid windows.
+PID 21161: Total duration 168.00 hours. Picked a 24hr window starting at float 1656300435.0873446
+window length 167, expected length 1000 - window rejected
+PID 21161: Picked random day. Sampled 100 from 8740 valid windows.
+
+[WARNING] skipping 21168_T4_AX6_29042024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21155: Total duration 168.00 hours. Picked a 24hr window starting at float 1669333903.311721
+window length 877, expected length 1000 - window rejected
+PID 21155: Picked random day. Sampled 100 from 8753 valid windows.
+PID 21159: Total duration 168.00 hours. Picked a 24hr window starting at float 1684752533.3430965
+window length 102, expected length 1000 - window rejected
+PID 21159: Picked random day. Sampled 100 from 8656 valid windows.
+PID 21160: Total duration 168.00 hours. Picked a 24hr window starting at float 1673653323.1285508
+window length 634, expected length 1000 - window rejected
+PID 21160: Picked random day. Sampled 100 from 8507 valid windows.
+PID 21146: Total duration 168.00 hours. Picked a 24hr window starting at float 1665902735.3853526
+window length 334, expected length 1000 - window rejected
+PID 21146: Picked random day. Sampled 100 from 8594 valid windows.
+PID 21160: Total duration 168.00 hours. Picked a 24hr window starting at float 1689280848.0495477
+window length 350, expected length 1000 - window rejected
+PID 21160: Picked random day. Sampled 100 from 8599 valid windows.
+PID 21163: Total duration 168.00 hours. Picked a 24hr window starting at float 1689388881.0213735
+window length 805, expected length 1000 - window rejected
+PID 21163: Picked random day. Sampled 100 from 8500 valid windows.
+
+[WARNING] skipping 21166_T4_AX6_12032024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21159: Total duration 168.00 hours. Picked a 24hr window starting at float 1654805770.072611
+window length 758, expected length 1000 - window rejected
+PID 21159: Picked random day. Sampled 100 from 8599 valid windows.
+
+[WARNING] skipping 21161_T4_AX6_05022024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+
+[WARNING] skipping 21149_T5_AX6_13052024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21152: Total duration 168.00 hours. Picked a 24hr window starting at float 1669535371.564561
+window length 403, expected length 1000 - window rejected
+PID 21152: Picked random day. Sampled 100 from 8594 valid windows.
+PID 21157: Total duration 57.99 hours. Picked a 24hr window starting at float 1670633344.9464273
+window length 30, expected length 1000 - window rejected
+PID 21157: Picked random day. Sampled 100 from 8666 valid windows.
+PID 21146: Total duration 168.00 hours. Picked a 24hr window starting at float 1649826894.4618232
+window length 398, expected length 1000 - window rejected
+PID 21146: Picked random day. Sampled 100 from 8510 valid windows.
+PID 21164: Total duration 168.00 hours. Picked a 24hr window starting at float 1671597421.7183785
+window length 481, expected length 1000 - window rejected
+PID 21164: Picked random day. Sampled 100 from 8766 valid windows.
+PID 21167: Total duration 168.00 hours. Picked a 24hr window starting at float 1683059559.4076085
+window length 477, expected length 1000 - window rejected
+PID 21167: Picked random day. Sampled 100 from 8728 valid windows.
+PID 21162: Total duration 168.00 hours. Picked a 24hr window starting at float 1689979312.9379168
+window length 69, expected length 1000 - window rejected
+PID 21162: Picked random day. Sampled 100 from 8704 valid windows.
+PID 21138: Total duration 168.00 hours. Picked a 24hr window starting at float 1662722073.500467
+window length 191, expected length 1000 - window rejected
+PID 21138: Picked random day. Sampled 100 from 8507 valid windows.
+
+[WARNING] skipping 21163_T4_AX6_06022024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21166: Total duration 168.00 hours. Picked a 24hr window starting at float 1663884906.5908525
+window length 176, expected length 1000 - window rejected
+PID 21166: Picked random day. Sampled 100 from 8718 valid windows.
+PID 21160: Total duration 44.46 hours. Picked a 24hr window starting at float 1655202450.893556
+window length 780, expected length 1000 - window rejected
+PID 21160: Picked random day. Sampled 100 from 8541 valid windows.
+PID 21168: Total duration 168.00 hours. Picked a 24hr window starting at float 1682150960.774262
+window length 401, expected length 1000 - window rejected
+PID 21168: Picked random day. Sampled 100 from 8594 valid windows.
+PID 21159: Total duration 168.00 hours. Picked a 24hr window starting at float 1670381689.4342825
+window length 93, expected length 1000 - window rejected
+PID 21159: Picked random day. Sampled 100 from 8704 valid windows.
+
+[WARNING] skipping 21160_T4_AX6_24012024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21155: Total duration 168.00 hours. Picked a 24hr window starting at float 1653096376.6821368
+window length 759, expected length 1000 - window rejected
+PID 21155: Picked random day. Sampled 100 from 8708 valid windows.
+PID 21159: Total duration 168.00 hours. Picked a 24hr window starting at float 1701377930.2623932
+window length 860, expected length 1000 - window rejected
+PID 21159: Picked random day. Sampled 100 from 8703 valid windows.
+PID 21167: Total duration 165.06 hours. Picked a 24hr window starting at float 1664527035.344973
+window length 527, expected length 1000 - window rejected
+PID 21167: Picked random day. Sampled 100 from 8782 valid windows.
+PID 21164: Total duration 168.00 hours. Picked a 24hr window starting at float 1687616458.833339
+window length 268, expected length 1000 - window rejected
+PID 21164: Picked random day. Sampled 100 from 8676 valid windows.
+
+[WARNING] skipping 21162_T4_AX6_24012024_acc_gyr_tagged.parquet: File contains NaN values in 'timestamp_plus_one_nep'.
+PID 21168: Total duration 168.00 hours. Picked a 24hr window starting at float 1664728434.5120625
+window length 805, expected length 1000 - window rejected
+PID 21168: Picked random day. Sampled 100 from 8665 valid windows.
+PID 21152: Total duration 168.00 hours. Picked a 24hr window starting at float 1651952437.9537323
+window length 934, expected length 1000 - window rejected
+PID 21152: Picked random day. Sampled 100 from 8566 valid windows.
+PID 21164: Total duration 168.00 hours. Picked a 24hr window starting at float 1703436604.2449222
+window length 531, expected length 1000 - window rejected
+PID 21164: Picked random day. Sampled 100 from 8705 valid windows.
+PID 21149: Total duration 168.00 hours. Picked a 24hr window starting at float 1651334778.6690776
+window length 917, expected length 1000 - window rejected
+PID 21149: Picked random day. Sampled 100 from 8509 valid windows.
+
+Dataset successfully created with random-day restrictive sampling!
+Final X shape: (4000, 300, 6)
