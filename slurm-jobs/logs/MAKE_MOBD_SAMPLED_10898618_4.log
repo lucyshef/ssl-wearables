@@ -21,3 +21,18 @@ PID 10386: Total data duration (168.00 hours) is less than 168 hours. Using all 
 window length 680, expected length 1000 - window rejected
 PID 10386: Picked random day. Sampled 100 from 59566 valid windows.
 PID 10403: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 880, expected length 1000 - window rejected
+PID 10403: Picked random day. Sampled 100 from 59658 valid windows.
+PID 10423: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 320, expected length 1000 - window rejected
+PID 10423: Picked random day. Sampled 100 from 59711 valid windows.
+PID 10423: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 960, expected length 1000 - window rejected
+PID 10423: Picked random day. Sampled 100 from 59807 valid windows.
+PID 10411: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 560, expected length 1000 - window rejected
+PID 10411: Picked random day. Sampled 100 from 60799 valid windows.
+PID 10412: Total data duration (168.00 hours) is less than 168 hours. Using all data.
+window length 560, expected length 1000 - window rejected
+PID 10412: Picked random day. Sampled 100 from 60877 valid windows.
+PID 10416: Total data duration (168.00 hours) is less than 168 hours. Using all data.
