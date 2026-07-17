@@ -27,7 +27,7 @@ MAX_WINDOWS=100
 # DATAFILES = "/Users/catong/repos/video-imu/data/"
 # DATAFILES = DATAFILES + "wisdm/wisdm-dataset/raw/watch/accel/*.txt"
 datafolder = os.path.join("/mnt/parscratch/users/acp25lmc/tagged_data_parquet")
-sites = ["MS21", "MS24", "MS25"] # ["MS21", "MS10", "MS24", "MS25"]
+sites = ["MS21", "MS10", "MS24", "MS25"]
 num_workers = 4  # update this based on number of cores requested
 OUTDIR = os.path.join("/mnt", "parscratch", "users", "acp25lmc", "ssl-data", f"mobd_six_channel_{SUBSAMPLE_DURATION}hr_{MAX_WINDOWS}_{TARGET_HZ}hz_{WINDOW_SEC}s")
 
