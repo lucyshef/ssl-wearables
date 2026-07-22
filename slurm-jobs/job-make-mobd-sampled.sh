@@ -6,7 +6,7 @@
 #SBATCH --mail-user=lmcheesman1@sheffield.ac.uk
 #SBATCH --mail-type=ALL
 #SBATCH --output=/users/acp25lmc/ssl-wearables/slurm-jobs/logs/%x_%j_%a.log
-#SBATCH --array=1-4
+#SBATCH --array=1-3
 
 export SLURM_EXPORT_ENV=ALL
 module load Anaconda3/2024.02-1
@@ -20,13 +20,11 @@ cd /users/acp25lmc/ssl-wearables/data_parsing
            #SUBSAMPLE_DURATION = 24 (hours)
            #MAX_WINDOWS=100
 
-if [ $SLURM_ARRAY_TASK_ID -eq 1 ]; then
-    PARAMS="100 10 30 168 100"
-elif [ $SLURM_ARRAY_TASK_ID -eq 2 ]; then
+elif [ $SLURM_ARRAY_TASK_ID -eq 1 ]; then
     PARAMS="100 10 30 168 500"
-elif [ $SLURM_ARRAY_TASK_ID -eq 3 ]; then
+elif [ $SLURM_ARRAY_TASK_ID -eq 2 ]; then
     PARAMS="100 10 100 168 100"
-elif [ $SLURM_ARRAY_TASK_ID -eq 4 ]; then
+elif [ $SLURM_ARRAY_TASK_ID -eq 3 ]; then
     PARAMS="100 10 100 168 500"
 fi
 
