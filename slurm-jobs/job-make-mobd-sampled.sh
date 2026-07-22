@@ -30,4 +30,4 @@ elif [ $SLURM_ARRAY_TASK_ID -eq 4 ]; then
     PARAMS="100 10 100 168 500"
 fi
 
-python -u make_mobd_sampled.py
+python -u make_mobd_sampled.py $PARAMS
