@@ -20,7 +20,7 @@ cd /users/acp25lmc/ssl-wearables/data_parsing
            #SUBSAMPLE_DURATION = 24 (hours)
            #MAX_WINDOWS=100
 
-elif [ $SLURM_ARRAY_TASK_ID -eq 1 ]; then
+if [ $SLURM_ARRAY_TASK_ID -eq 1 ]; then
     PARAMS="100 10 30 168 500"
 elif [ $SLURM_ARRAY_TASK_ID -eq 2 ]; then
     PARAMS="100 10 100 168 100"
