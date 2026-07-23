@@ -1,0 +1,2 @@
+/var/spool/slurmd/slurmd.spool/job10988373/slurm_script: line 23: syntax error near unexpected token `elif'
+/var/spool/slurmd/slurmd.spool/job10988373/slurm_script: line 23: `elif [ $SLURM_ARRAY_TASK_ID -eq 1 ]; then'
