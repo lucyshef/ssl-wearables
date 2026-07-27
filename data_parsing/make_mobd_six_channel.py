@@ -8,6 +8,8 @@ from pathlib import Path
 from functools import partial
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from scipy.interpolate import interp1d
+import sys # this lets us pull in args from the slurm array
+
 
 DEVICE_HZ = 100  # Hz
 WINDOW_SEC = 10  # seconds
@@ -22,6 +24,14 @@ TARGET_WINDOW_LEN = int(TARGET_HZ * WINDOW_SEC)
 SUBSAMPLE_DURATION = 24
 # SUBSAMPLE_DURATION = (24 * 7)
 MAX_WINDOWS=100
+
+# update args from slurm params if passed
+if len(sys.argv) > 5:
+    DEVICE_HZ = int(sys.argv[1])
+    WINDOW_SEC = int(sys.argv[2])
+    TARGET_HZ = int(sys.argv[3])
+    SUBSAMPLE_DURATION = int(sys.argv[4])
+    MAX_WINDOWS = int(sys.argv[5])
 
 
 # DATAFILES = "/Users/catong/repos/video-imu/data/"
